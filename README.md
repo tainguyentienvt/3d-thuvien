@@ -1,14 +1,14 @@
 # Bài giảng 3D · THCS & Sinh học
 
-15 bài trích từ “Sáng Ăn Khoai” — [`nclamvn/bai-giang`](https://github.com/nclamvn/bai-giang),
+16 bài trích từ “Sáng Ăn Khoai” — [`nclamvn/bai-giang`](https://github.com/nclamvn/bai-giang),
 commit `b075043` (repo gốc ~240 MB, 3.425 file). Repo này chỉ giữ phần đã chọn,
-tổng ~20 MB. **Không** gồm Cơ thể người 3D (143 MB) — bài đó nên là repo riêng nếu cần.
+tổng ~163 MB theo dung lượng file (riêng Cơ thể người 3D đã 143 MB).
 
 ## Gồm những gì
 
 | Nhóm | Bài |
 |---|---|
-| Bài học 3D Sinh học (3) | Hành Trình Vào Tế Bào (Sinh 10), Vào Ty Thể (Sinh 10), Neuron và xung thần kinh (Sinh 11) |
+| Bài học 3D Sinh học (4) | Hành Trình Vào Tế Bào (Sinh 10), Vào Ty Thể (Sinh 10), Neuron và xung thần kinh (Sinh 11), **Cơ thể người 3D (KHTN 8)** |
 | Lộ trình (1) | Sinh học tế bào lớp 10 (`chu-de/sinh-hoc-te-bao/`) |
 | Thư viện THCS 6–9 (7) | Luyện gang trong lò cao, Luyện kim (điện phân + nhiệt nhôm), Sản xuất xi măng, Các nhân tố hình thành đất, Hệ quả địa lí của chuyển động Trái Đất, Vòng tuần hoàn nước, Đai khí áp – đới gió – hoàn lưu ba vòng |
 | Thư viện Sinh học (5) | Enzyme, Nguyên phân, Xung thần kinh, Hút/mất nước tế bào thực vật, Vận chuyển qua màng |
@@ -16,7 +16,10 @@ tổng ~20 MB. **Không** gồm Cơ thể người 3D (143 MB) — bài đó nê
 
 Kèm theo: `shell/` (vỏ lên lớp chung), `design/` (font Be Vietnam Pro / Noto Serif /
 JetBrains Mono, logo), `thu-vien/anh/` (ảnh dùng chung trong bài), `thu-vien/covers/`
-(ảnh bìa), `src/` + `build.sh` (nguồn để dựng lại trang Tế Bào).
+(ảnh bìa), `src/` + `build.sh` (nguồn để dựng lại trang Tế Bào),
+`tools/co-the-nguoi/` (công cụ + mã nguồn upstream để dựng lại bài Cơ thể người;
+dựng lại đầy đủ còn cần `tools/inject_shell.py` và esbuild của robotics ở repo gốc,
+không gồm trong repo này).
 
 `thu-vien/catalog.vi.json` và `thu-vien/gdpt2018.json` đã rút gọn chỉ giữ các bài
 trong repo này (catalog 54 → 12 bài; gdpt 57 mục → 15 mục gồm te-bao, ty-the, chu-de).
@@ -35,13 +38,18 @@ Site tĩnh thuần, không build, không backend:
 
 - **GitHub Pages:** bật Pages từ nhánh `main`, thư mục `/` (đã có `.nojekyll`).
 - **Vercel:** Import Git Repository, Framework Preset **Other**, Build Command
-  **trống**, Output Directory `./`. Không chạy build.
+  **trống**, Output Directory `./`. Không chạy build. Chỉ deploy qua Git —
+  repo này ~163 MB nên deploy bằng CLI/kéo-thả sẽ fail giới hạn 100 MB của gói Hobby.
 
 ## Giấy phép — đọc kỹ, không gán chung một giấy phép
 
 - Bài Tế Bào / Ty Thể / Neuron, trang AR và công cụ: **MIT** (xem `LICENSE`).
 - 12 bài thư viện (`thu-vien/`): **CC BY-NC 4.0** — bản tiếng Việt của Tongjiang Lab,
   chỉ dùng phi thương mại (xem `thu-vien/GHI-CONG.md`).
+- Cơ thể người 3D (`co-the-nguoi/`): mã BodyVista MIT; mô hình giải phẫu CC BY-SA
+  (Z-Anatomy / BodyParts3D), một phần chỉ dùng phi thương mại — toàn bài chỉ dùng
+  cho giáo dục, không thương mại (xem `co-the-nguoi/GHI-CONG.md`,
+  `co-the-nguoi/THIRD_PARTY_NOTICES.md`).
 - Font Be Vietnam Pro, Noto Serif, JetBrains Mono: SIL Open Font License 1.1
   (xem `design/fonts/OFL-*.txt`).
 
