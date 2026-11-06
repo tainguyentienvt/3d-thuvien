@@ -1,0 +1,367 @@
+[
+ {
+  "slug": "enzyme-step",
+  "subject": "bio",
+  "mon": "Sinh học",
+  "file": "enzyme-step.html",
+  "cover": "covers/enzyme-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/enzyme-step/",
+  "title": "Các điều kiện ảnh hưởng đến hoạt tính enzyme",
+  "title_zh": "影响酶活性的条件",
+  "question": "Cùng một ống enzyme, vì sao cho vào nước sôi thì không cứu lại được nữa, còn cho vào nước đá thì vẫn “tỉnh lại” được?",
+  "question_zh": "同一支酶，为什么放进沸水里就再也救不回来，放进冰水里却还能醒过来？",
+  "type": "Nguyên lý và hiện tượng",
+  "type_zh": "原理与现象",
+  "steps": [
+   "Làm quen bàn thí nghiệm",
+   "Nhiệt độ",
+   "pH",
+   "Nhiệt độ cao: không phục hồi",
+   "Nhiệt độ thấp: phục hồi được",
+   "Nhìn vào bên trong",
+   "Quá acid, quá kiềm",
+   "Kiểm tra · làm kỹ thuật viên"
+  ],
+  "textbook": [
+   "Bắt buộc 1 Phân tử và tế bào · Chương 5 Cung cấp và sử dụng năng lượng của tế bào · Bài 1 Enzyme làm giảm năng lượng hoạt hoá · Tìm tòi – thực hành: các điều kiện ảnh hưởng tới hoạt tính enzyme"
+  ],
+  "textbook_zh": [
+   "必修1 分子与细胞 · 第5章 细胞的能量供应和利用 · 第1节 降低化学反应活化能的酶 · 探究·实践：影响酶活性的条件"
+  ]
+ },
+ {
+  "slug": "mitosis-step",
+  "subject": "bio",
+  "mon": "Sinh học",
+  "file": "mitosis-step.html",
+  "cover": "covers/mitosis-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/mitosis-step/",
+  "title": "Quan sát nguyên phân ở tế bào vùng mô phân sinh đầu rễ",
+  "title_zh": "观察根尖分生区组织细胞的有丝分裂",
+  "question": "Trên một đầu rễ hành, những tế bào nào đang phân chia? Mỗi kì của một lần phân chia kéo dài bao lâu?",
+  "question_zh": "一根洋葱根尖上，哪些细胞正在分裂？它们分裂一次各要多久？",
+  "type": "Nguyên lý và hiện tượng",
+  "type_zh": "原理与现象",
+  "steps": [
+   "Làm tiêu bản",
+   "Tìm vùng phân sinh",
+   "Kì đầu",
+   "Kì giữa",
+   "Kì sau",
+   "Kì cuối",
+   "Đếm",
+   "Tính thời gian",
+   "Kiểm tra cuối bài"
+  ],
+  "textbook": [
+   "Bắt buộc 1 Phân tử và tế bào · Chương 6 Chu trình sống của tế bào · Bài 1 Sự sinh sản của tế bào · Tìm tòi – thực hành: quan sát nguyên phân ở tế bào vùng mô phân sinh đầu rễ"
+  ],
+  "textbook_zh": [
+   "必修1 分子与细胞 · 第6章 细胞的生命历程 · 第1节 细胞的增殖 · 探究·实践：观察根尖分生区组织细胞的有丝分裂"
+  ]
+ },
+ {
+  "slug": "impulse-step",
+  "subject": "bio",
+  "mon": "Sinh học",
+  "file": "impulse-step.html",
+  "cover": "covers/impulse-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/impulse-step/",
+  "title": "Sự hình thành và dẫn truyền xung thần kinh",
+  "title_zh": "神经冲动的产生和传导",
+  "question": "Xuất phát trong vòng 0.1 s sau tiếng súng lệnh là tính phạm quy (SGK tr. 27) — hưng phấn “chạy” qua cơ thể như thế nào?",
+  "question_zh": "发令枪响后 0.1 s 内起跑就算抢跑（教材 p.27）——兴奋在身体里怎样「跑」过去？",
+  "type": "Nguyên lý và hiện tượng",
+  "type_zh": "原理与现象",
+  "steps": [
+   "Xung thần kinh",
+   "Điện thế nghỉ",
+   "Điện thế hoạt động",
+   "Dòng điện cục bộ",
+   "Synapse",
+   "Một chiều và chậm synapse",
+   "Cocaine",
+   "Na⁺ ngoài màng",
+   "Kiểm tra cuối bài"
+  ],
+  "textbook": [
+   "Lựa chọn bắt buộc 1 Cân bằng nội môi và điều hoà · Chương 2 Điều hoà thần kinh · Bài 3 Sự hình thành và dẫn truyền xung thần kinh"
+  ],
+  "textbook_zh": [
+   "选择性必修1 稳态与调节 · 第2章 神经调节 · 第3节 神经冲动的产生和传导"
+  ]
+ },
+ {
+  "slug": "plasmolysis-step",
+  "subject": "bio",
+  "mon": "Sinh học",
+  "file": "plasmolysis-step.html",
+  "cover": "covers/plasmolysis-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/plasmolysis-step/",
+  "title": "Sự hút nước và mất nước của tế bào thực vật",
+  "title_zh": "植物细胞的吸水和失水",
+  "question": "Rau ngâm nước sạch thì cứng giòn, rắc muối thì chảy nước — tế bào thực vật hút nước và mất nước như thế nào?",
+  "question_zh": "菜叶泡在清水里会变硬挺，撒了盐会出水——植物细胞怎样吸水和失水？",
+  "type": "Nguyên lý và hiện tượng",
+  "type_zh": "原理与现象",
+  "steps": [
+   "Thẩm thấu",
+   "Lớp nguyên sinh chất",
+   "Mất nước",
+   "Nước đi đâu",
+   "Phản co",
+   "Glycerol",
+   "Đo nồng độ",
+   "Kiểm tra cuối bài"
+  ],
+  "textbook": [
+   "Bắt buộc 1 Phân tử và tế bào · Chương 4 Sự vận chuyển các chất vào và ra tế bào · Bài 1 Vận chuyển thụ động · Tìm tòi – thực hành: sự hút nước và mất nước của tế bào thực vật"
+  ],
+  "textbook_zh": [
+   "必修1 分子与细胞 · 第4章 细胞的物质输入和输出 · 第1节 被动运输 · 探究·实践：探究植物细胞的吸水和失水"
+  ]
+ },
+ {
+  "slug": "transport-step",
+  "subject": "bio",
+  "mon": "Sinh học",
+  "file": "transport-step.html",
+  "cover": "covers/transport-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/transport-step/",
+  "title": "Vận chuyển các chất qua màng",
+  "title_zh": "物质跨膜运输",
+  "question": "Cùng một màng tế bào, vì sao oxygen tự đi qua được, glucose phải nhờ vài protein giúp sức, còn K⁺ lại đi vào được ngược chiều nồng độ?",
+  "question_zh": "同一片细胞膜，为什么氧能自己穿过去、葡萄糖要好几个蛋白帮忙、K⁺ 还能逆着浓度往里走？",
+  "type": "Nguyên lý và hiện tượng",
+  "type_zh": "原理与现象",
+  "steps": [
+   "Khuếch tán đơn giản",
+   "Thấm chọn lọc",
+   "Khuếch tán tăng cường",
+   "Protein mang và kênh",
+   "Vận chuyển chủ động",
+   "Nhập bào, xuất bào",
+   "Tổng hợp",
+   "Kiểm tra cuối bài"
+  ],
+  "textbook": [
+   "Bắt buộc 1 Phân tử và tế bào · Chương 4 Sự vận chuyển các chất vào và ra tế bào"
+  ],
+  "textbook_zh": [
+   "必修1 分子与细胞 · 第4章 细胞的物质输入和输出"
+  ]
+ },
+ {
+  "slug": "blast-furnace-step",
+  "subject": "chem",
+  "mon": "Hoá học",
+  "file": "blast-furnace-step.html",
+  "cover": "covers/blast-furnace-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/blast-furnace-step/",
+  "title": "Luyện gang trong lò cao",
+  "title_zh": "高炉炼铁",
+  "question": "Một đống quặng đổ từ đỉnh lò xuống, sao vài giờ sau đã thành dòng gang lỏng, lại còn càng chạy càng tiết kiệm?",
+  "question_zh": "一堆矿石从炉顶倒下去，怎么几小时后就变成一股铁水，还越省越好？",
+  "type": "Quy trình công nghiệp",
+  "type_zh": "工业流程",
+  "steps": [
+   "Quặng thành gang",
+   "Nạp liệu phân lớp",
+   "Bổ ra xem các vùng",
+   "Mắt gió đốt cốc",
+   "Khử từng cấp",
+   "Đá vôi tạo xỉ",
+   "Bài toán nhiệt độ gió",
+   "Kiểm tra trực ca"
+  ],
+  "textbook": [
+   "Bắt buộc tập 2 · Chương 8 Hoá học và phát triển bền vững · Bài 1 Khai thác và sử dụng tài nguyên thiên nhiên · Khai thác và sử dụng khoáng sản kim loại"
+  ],
+  "textbook_zh": [
+   "必修第二册 · 第八章 化学与可持续发展 · 第一节 自然资源的开发利用 · 金属矿物的开发利用"
+  ]
+ },
+ {
+  "slug": "smelting-step",
+  "subject": "chem",
+  "mon": "Hoá học",
+  "file": "smelting-step.html",
+  "cover": "covers/smelting-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/smelting-step/",
+  "title": "Luyện kim: điện phân muối nóng chảy + nhiệt nhôm",
+  "title_zh": "金属冶炼：电解熔融盐 + 铝热",
+  "question": "Vì sao nhôm chỉ có thể dùng điện để “tách” ra, còn sắt lại có thể bị nhôm “đẩy” ra?",
+  "question_zh": "为什么铝只能靠电「拆」出来，而铁能被铝「换」出来？",
+  "type": "Quy trình công nghiệp",
+  "type_zh": "工业流程",
+  "steps": [
+   "Ba khu bàn",
+   "Chỉ có thể điện phân",
+   "Cắt dọc bể",
+   "Cái gì đi về đâu",
+   "Pha cryolite",
+   "Bài toán điện năng",
+   "Nhiệt nhôm",
+   "Kiểm tra trực ca"
+  ],
+  "textbook": [
+   "Bắt buộc tập 2 · Chương 8 Hoá học và phát triển bền vững · Bài 1 Khai thác và sử dụng tài nguyên thiên nhiên · Khai thác và sử dụng khoáng sản kim loại"
+  ],
+  "textbook_zh": [
+   "必修第二册 · 第八章 化学与可持续发展 · 第一节 自然资源的开发利用 · 金属矿物的开发利用"
+  ]
+ },
+ {
+  "slug": "cement-step",
+  "subject": "chem",
+  "mon": "Hoá học",
+  "file": "cement-step.html",
+  "cover": "covers/cement-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/cement-step/",
+  "title": "Sản xuất xi măng",
+  "title_zh": "工业制水泥",
+  "question": "Một xe đá và đất, vì sao nghiền, nung, rồi nghiền lại là thành xi măng đủ sức đỡ cả con đập?",
+  "question_zh": "一车石头和土，凭什么磨一磨、烧一烧、再磨一磨，就变成能撑起大坝的水泥？",
+  "type": "Quy trình công nghiệp",
+  "type_zh": "工业流程",
+  "steps": [
+   "Xem toàn nhà máy",
+   "Chuẩn bị liệu",
+   "Gia nhiệt – phân huỷ",
+   "Đi trong lò",
+   "Vùng nung kết",
+   "Làm nguội nhanh",
+   "Thêm thạch cao",
+   "Kiểm tra trực ca"
+  ],
+  "textbook": [
+   "Bắt buộc tập 2 · Chương 5 Các nguyên tố phi kim quan trọng trong sản xuất hoá chất · Bài 3 Vật liệu vô cơ phi kim loại"
+  ],
+  "textbook_zh": [
+   "必修第二册 · 第五章 化工生产中的重要非金属元素 · 第三节 无机非金属材料"
+  ]
+ },
+ {
+  "slug": "soil-step",
+  "subject": "geo",
+  "mon": "Địa lí",
+  "file": "soil-step.html",
+  "cover": "covers/soil-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/soil-step/",
+  "title": "Các nhân tố hình thành đất chủ yếu và quan sát phẫu diện đất",
+  "title_zh": "土壤的主要形成因素与土壤剖面观察",
+  "question": "Đất vùng Đông Bắc Trung Quốc vừa đen vừa màu mỡ, vì sao đất phương nam lại tương đối nghèo?",
+  "question_zh": "东北的土又黑又肥，南方的土为什么相对贫瘠？",
+  "type": "Nguyên lý và hiện tượng",
+  "type_zh": "原理与现象",
+  "steps": [
+   "Mặt cắt",
+   "Đá mẹ",
+   "Sinh vật",
+   "Khí hậu",
+   "Địa hình",
+   "Thời gian",
+   "Con người",
+   "Kiểm tra cuối bài"
+  ],
+  "textbook": [
+   "Bắt buộc tập 1 · Chương 5 Thảm thực vật và đất · Bài 2 Đất"
+  ],
+  "textbook_zh": [
+   "必修第一册 · 第五章 植被与土壤 · 第二节 土壤"
+  ]
+ },
+ {
+  "slug": "earth-motion-step",
+  "subject": "geo",
+  "mon": "Địa lí",
+  "file": "earth-motion-step.html",
+  "cover": "covers/earth-motion-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/earth-motion-step/",
+  "title": "Hệ quả địa lí của chuyển động Trái Đất",
+  "title_zh": "地球运动的地理意义",
+  "question": "Cùng một thời điểm, vì sao Bắc Kinh đang giữa trưa mà New York lại nửa đêm, và vì sao ban ngày mùa hạ dài hơn mùa đông?",
+  "question_zh": "同一时刻，为什么北京是中午、纽约是半夜，而夏天的白天又比冬天长？",
+  "type": "Nguyên lý và hiện tượng",
+  "type_zh": "原理与现象",
+  "steps": [
+   "Tự quay",
+   "Quanh Mặt Trời",
+   "Nửa cầu ngày đêm",
+   "Bình minh – hoàng hôn",
+   "Giờ địa phương",
+   "Múi giờ, đường chuyển ngày",
+   "Ngày đêm dài ngắn",
+   "Độ cao Mặt Trời chính trưa",
+   "Kiểm tra · chênh lệch giờ"
+  ],
+  "textbook": [
+   "Lựa chọn bắt buộc 1 Cơ sở địa lí tự nhiên · Chương 1 Chuyển động của Trái Đất · Bài 2 Hệ quả địa lí của chuyển động Trái Đất",
+   "Lựa chọn bắt buộc 1 Cơ sở địa lí tự nhiên · Chương 1 Chuyển động của Trái Đất · Bài 1 Sự tự quay và chuyển động quanh Mặt Trời của Trái Đất"
+  ],
+  "textbook_zh": [
+   "选择性必修1 自然地理基础 · 第一章 地球的运动 · 第二节 地球运动的地理意义",
+   "选择性必修1 自然地理基础 · 第一章 地球的运动 · 第一节 地球的自转和公转"
+  ]
+ },
+ {
+  "slug": "water-cycle-step",
+  "subject": "geo",
+  "mon": "Địa lí",
+  "file": "water-cycle-step.html",
+  "cover": "covers/water-cycle-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/water-cycle-step/",
+  "title": "Quá trình và ý nghĩa địa lí của vòng tuần hoàn nước",
+  "title_zh": "水循环的过程与地理意义",
+  "question": "Sông ngòi không ngừng đổ ra biển, vì sao nước biển không nhiều thêm?",
+  "question_zh": "江河不断注入大海，为什么大海的水没有增多？",
+  "type": "Nguyên lý và hiện tượng",
+  "type_zh": "原理与现象",
+  "steps": [
+   "Toàn cảnh",
+   "Bốc hơi",
+   "Thoát hơi",
+   "Vận chuyển",
+   "Thấm",
+   "Ba loại",
+   "Ruộng phủ sỏi",
+   "Ý nghĩa",
+   "Kiểm tra cuối bài"
+  ],
+  "textbook": [
+   "Bắt buộc tập 1 · Chương 3 Nước trên Trái Đất · Bài 1 Vòng tuần hoàn nước"
+  ],
+  "textbook_zh": [
+   "必修第一册 · 第三章 地球上的水 · 第一节 水循环"
+  ]
+ },
+ {
+  "slug": "circulation-step",
+  "subject": "geo",
+  "mon": "Địa lí",
+  "file": "circulation-step.html",
+  "cover": "covers/circulation-step.webp",
+  "online_goc": "https://lab.tongjiang.app/c/circulation-step/",
+  "title": "Đai khí áp, đới gió và hoàn lưu ba vòng",
+  "title_zh": "气压带、风带与三圈环流",
+  "question": "Vì sao đoàn thuyền Magellan có chặng ngược gió, có chặng xuôi gió, nhưng tới gần 30°S lại gần như không nhích được?",
+  "question_zh": "麦哲伦船队为什么有的航段逆风、有的顺风，到了 30°S 附近却寸步难行？",
+  "type": "Nguyên lý và hiện tượng",
+  "type_zh": "原理与现象",
+  "steps": [
+   "Áp thấp xích đạo",
+   "30° giáng xuống",
+   "60° trượt lên",
+   "Bảy đai sáu đới",
+   "Dịch chuyển theo mùa",
+   "Phân bố biển – lục địa",
+   "Kiểm tra · Magellan"
+  ],
+  "textbook": [
+   "Lựa chọn bắt buộc 1 Cơ sở địa lí tự nhiên · Chương 3 Chuyển động của khí quyển · Bài 2 Đai khí áp và đới gió"
+  ],
+  "textbook_zh": [
+   "选择性必修1 自然地理基础 · 第三章 大气的运动 · 第二节 气压带和风带"
+  ]
+ }
+]

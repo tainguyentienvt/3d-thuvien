@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta name="bg-root" content="../">
+<link rel="icon" type="image/png" sizes="32x32" href="../design/logo/favicon-32.png"><link rel="apple-touch-icon" href="../design/logo/apple-touch-icon.png">
+<!--BG-TOKENS:start--><style id="bg-tokens">@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:400;font-display:swap;src:url(../design/fonts/be-vietnam-pro-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:400;font-display:swap;src:url(../design/fonts/be-vietnam-pro-vietnamese-400-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:500;font-display:swap;src:url(../design/fonts/be-vietnam-pro-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:500;font-display:swap;src:url(../design/fonts/be-vietnam-pro-vietnamese-500-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:600;font-display:swap;src:url(../design/fonts/be-vietnam-pro-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:600;font-display:swap;src:url(../design/fonts/be-vietnam-pro-vietnamese-600-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:700;font-display:swap;src:url(../design/fonts/be-vietnam-pro-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Be Vietnam Pro';font-style:normal;font-weight:700;font-display:swap;src:url(../design/fonts/be-vietnam-pro-vietnamese-700-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'Noto Serif';font-style:normal;font-weight:600;font-display:swap;src:url(../design/fonts/noto-serif-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Noto Serif';font-style:normal;font-weight:600;font-display:swap;src:url(../design/fonts/noto-serif-vietnamese-600-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;font-display:swap;src:url(../design/fonts/jetbrains-mono-latin-500-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;font-display:swap;src:url(../design/fonts/jetbrains-mono-vietnamese-500-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:600;font-display:swap;src:url(../design/fonts/jetbrains-mono-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:600;font-display:swap;src:url(../design/fonts/jetbrains-mono-vietnamese-600-normal.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}:root{--bg-page:#F4F4F6;--bg-surface:#FFFFFF;--bg-glass:rgba(255,255,255,.88);--bg-glass-strong:rgba(255,255,255,.95);--bg-ink:#15171C;--bg-ink2:#454A55;--bg-ink3:#626773;--bg-hair:rgba(16,24,40,.10);--bg-hair2:rgba(16,24,40,.18);--bg-brand:#1E2A44;--bg-brand-ink:#FFFFFF;--bg-focus:#2F6FEB;--bg-ok:#1F7A4D;--bg-warn:#8A5200;--bg-bad:#B3261E;--bg-scrim:rgba(16,20,30,.32);--bg-s-sinh:#C2184A;--bg-s-su:#B26A1A;--bg-s-robo:#D9481C;--bg-s-ly:#2459C9;--bg-s-hoa:#0E7C66;--bg-s-toan:#6B4BC8;--bg-s-dia:#2E7D32;--bg-s-cong:#5B6472;--bg-fs-xs:calc(13px * var(--bg-k));--bg-fs-sm:calc(15px * var(--bg-k));--bg-fs-md:calc(17px * var(--bg-k));--bg-fs-lg:calc(20px * var(--bg-k));--bg-fs-xl:calc(26px * var(--bg-k));--bg-fs-2xl:calc(34px * var(--bg-k));--bg-fs-3xl:calc(48px * var(--bg-k));--bg-k:1;--bg-font:"Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;--bg-serif:"Noto Serif", Georgia, "Times New Roman", serif;--bg-mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;--bg-r-lg:20px;--bg-r-md:14px;--bg-r-sm:10px;--bg-r-pill:999px;--bg-sh-1:0 0 0 .5px rgba(16,24,40,.06), 0 6px 18px -10px rgba(16,24,40,.28);--bg-sh-2:0 0 0 .5px rgba(16,24,40,.06), 0 18px 44px -18px rgba(16,24,40,.34);--bg-blur:blur(20px) saturate(170%);--bg-t-fast:120ms;--bg-t-mid:240ms;--bg-t-slow:600ms;--bg-ease:cubic-bezier(.2,.8,.2,1);--bg-ease-io:cubic-bezier(.65,0,.35,1);--bg-bar:56px;--bg-tap:44px;--bg-accent:var(--bg-brand)}
+@media (max-width:640px),(max-height:520px){:root{--bg-bar:48px;--bg-fs-xs:calc(14px * var(--bg-k))}}
+html[data-chieu]{--bg-ink:#000000;--bg-ink2:#141414;--bg-ink3:#262626;--bg-glass:#FFFFFF;--bg-glass-strong:#FFFFFF;--bg-hair:rgba(0,0,0,.30);--bg-hair2:rgba(0,0,0,.45);--bg-blur:none;--bg-k:1.25}
+@media (prefers-reduced-motion:reduce){:root{--bg-t-fast:1ms;--bg-t-mid:1ms;--bg-t-slow:1ms}}
+</style><!--BG-TOKENS:end-->
+
+<meta charset="utf-8">
+<!--BG-SHARE:start-->
+<meta property="og:type" content="website"><meta property="og:site_name" content="Sáng Ăn Khoai"><meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Neuron và xung thần kinh · Sáng Ăn Khoai"><meta property="og:description" content="Bài 3D Sinh học 11: neuron, điện thế màng, dẫn truyền nhảy cóc qua eo Ranvier và synapse hoá học, phong cách điện ảnh.">
+<meta property="og:url" content="https://nclamvn.github.io/bai-giang/than-kinh/"><link rel="canonical" href="https://nclamvn.github.io/bai-giang/than-kinh/">
+<meta property="og:image" content="https://nclamvn.github.io/bai-giang/design/the/than-kinh.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Neuron và xung thần kinh">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nclamvn.github.io/bai-giang/design/the/than-kinh.jpg">
+<!--BG-SHARE:end-->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#050816">
+<title>Neuron và xung thần kinh · Sáng Ăn Khoai</title>
+<meta name="description" content="Bài 3D Sinh học 11: neuron, điện thế màng, dẫn truyền nhảy cóc qua eo Ranvier và synapse hoá học, phong cách điện ảnh.">
+<style>
+/* Neuron và xung thần kinh · phong cách điện ảnh (tools/than-kinh.template.html → tools/build_than_kinh.py) */
+:root{--nk-bg:#050816;--nk-ink:#E8ECFF;--nk-ink2:#A9B2D6;--nk-ink3:#7C86AD;--nk-line:rgba(160,175,255,.22);--nk-gold:#FFB547;--nk-cyan:#6FE3FF;--nk-violet:#B78CFF;--nk-pink:#FF7AC6}
+html,body{margin:0;height:100%;background:var(--nk-bg);color:var(--nk-ink);overflow:hidden;font-family:var(--bg-font,"Be Vietnam Pro",system-ui,sans-serif)}
+#stage{position:fixed;inset:0}
+#stage canvas{display:block;width:100%;height:100%;outline:none}
+.hud{position:fixed;z-index:5;pointer-events:none;font:500 13px/1.45 var(--bg-font,"Be Vietnam Pro",system-ui,sans-serif);color:var(--nk-ink2)}
+.hud .k{font:600 13px/1.4 var(--bg-font,system-ui);color:var(--nk-ink3)}
+/* bảng thông tin theo chuẩn thành phần chung: kính sáng, bo 14, chữ mực; màu môn Sinh cho số liệu đang đổi */
+.box{--nk-ink:var(--bg-ink,#15171C);--nk-ink2:var(--bg-ink2,#454A55);--nk-ink3:var(--bg-ink3,#626773);--nk-line:var(--bg-hair,rgba(16,24,40,.10));--nk-gold:var(--bg-s-sinh,#C2184A);
+  box-sizing:border-box;border:0;background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(20px) saturate(170%);backdrop-filter:blur(20px) saturate(170%);border-radius:var(--bg-r-md,14px);padding:12px 16px;box-shadow:var(--bg-sh-2,0 18px 44px -18px rgba(16,24,40,.34)),0 0 0 .5px rgba(16,24,40,.08);color:var(--nk-ink2)}
+body.bgs-on #title,body.bgs-on #vm,body.bgs-on #tag{top:calc(var(--bg-bar,56px) + 14px)}
+#title{left:18px;top:18px}
+#title .brand{font:600 13px var(--bg-font,system-ui);color:var(--nk-gold)}
+#title h1{margin:2px 0 2px;font:700 26px/1.1 var(--bg-font,system-ui);letter-spacing:-.01em;color:var(--nk-ink)}
+#title .sub{font-size:13px;color:var(--nk-ink2)}
+#vm{right:18px;top:18px;width:300px}
+#vm .row{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+#vm .val{font:600 32px/1 var(--bg-mono,monospace);color:var(--nk-ink);font-variant-numeric:tabular-nums}
+#vm .val small{font-size:15px;color:var(--nk-ink2);margin-left:4px}
+#vm canvas{display:block;width:100%;height:70px;margin-top:6px}
+#vm .lg{display:flex;justify-content:space-between;font-size:13px;color:var(--nk-ink3)}
+#shot{left:18px;bottom:18px;width:min(430px,calc(100vw - 36px))}
+#shot .k b{color:var(--nk-gold);font-weight:600}
+#shot h2{margin:4px 0 6px;font:700 19px/1.3 var(--bg-font,system-ui);color:var(--nk-ink);letter-spacing:-.005em}
+#shot p{margin:0;font:500 14px/1.55 var(--bg-font,system-ui);color:var(--nk-ink2)}
+#shot .src{margin-top:8px;font-size:13px;color:var(--nk-ink3)}
+#shot{pointer-events:auto}
+#ask{margin-top:10px;padding-top:10px;border-top:1px solid var(--nk-line)}
+#ask b{display:block;margin-bottom:6px;font:600 14px/1.45 var(--bg-font,system-ui);color:var(--nk-ink)}
+#ask button{display:block;width:100%;text-align:left;min-height:40px;margin:0 0 6px;padding:8px 12px;border:1px solid var(--bg-hair2,rgba(16,24,40,.18));border-radius:10px;background:#fff;color:var(--nk-ink);font:500 14px/1.4 var(--bg-font,system-ui);cursor:pointer}
+#ask button:hover:not(:disabled){border-color:var(--nk-ink3)}
+#ask.rev button.ok{border-color:var(--bg-ok,#1F7A4D);background:color-mix(in srgb,var(--bg-ok,#1F7A4D) 10%,#fff);font-weight:600}
+#ask.rev button.pick:not(.ok){border-color:var(--bg-bad,#B3261E);background:color-mix(in srgb,var(--bg-bad,#B3261E) 8%,#fff)}
+#ask .e{display:none;margin-top:4px;font:500 13px/1.5 var(--bg-font,system-ui);color:var(--nk-ink2)}
+#ask.rev .e{display:block}
+@media (pointer:coarse){#ask button,#play button{min-height:44px}#bk .ck{min-height:44px}}
+body.clean .hud,body.clean #fade{display:none!important}
+#read{right:18px;bottom:18px;width:300px}
+#bk{right:18px;top:calc(var(--bg-bar,0px) + 232px);width:300px;pointer-events:auto;font:500 14px/1.45 var(--bg-font,system-ui);color:var(--nk-ink);z-index:7}
+#bk[hidden]{display:none}
+#bk .k{margin-bottom:6px}
+#bk label{display:block;margin:8px 0}
+#bk .sl b{float:right;color:var(--nk-gold);font:600 14px var(--bg-mono,monospace)}
+#bk input[type=range]{display:block;width:100%;margin-top:6px;accent-color:var(--bg-brand,#1E2A44);min-height:28px}
+#bk .ck{display:flex;align-items:center;gap:10px;min-height:40px;cursor:pointer}
+#bk .ck input{width:20px;height:20px;accent-color:var(--bg-brand,#1E2A44)}
+#bk .say{margin:6px 0 2px;padding:8px 10px;border-radius:10px;background:color-mix(in srgb,var(--bg-s-sinh,#C2184A) 8%,#fff);color:var(--nk-ink);font-size:13px}
+#bk .src{margin-top:6px;font-size:13px;color:var(--nk-ink3)}
+#read .r{display:flex;justify-content:space-between;gap:10px;padding:3px 0;border-bottom:1px solid var(--nk-line)}
+#read .r:last-child{border:0}
+#read .r b{color:var(--nk-ink);font-weight:600;font-variant-numeric:tabular-nums}
+#read .on{color:var(--nk-gold)!important}
+#loc{right:336px;bottom:18px;width:210px}
+#loc svg{display:block;width:100%;height:58px}
+#scale{left:50%;bottom:22px;transform:translateX(-50%);text-align:center;font-size:13px;color:var(--nk-ink2)}
+#scale i{display:block;height:2px;width:110px;margin:0 auto 4px;background:linear-gradient(90deg,transparent,#fff 12%,#fff 88%,transparent)}
+#tag{left:50%;top:18px;transform:translateX(-50%);font:500 13px var(--bg-font,system-ui);color:var(--bg-ink2,#454A55);border-radius:999px;padding:5px 14px;background:rgba(255,255,255,.92);box-shadow:var(--bg-sh-1,0 6px 18px -10px rgba(16,24,40,.28))}
+#live{display:inline-block;width:8px;height:8px;border-radius:50%;background:#ff4d6d;margin-right:6px;box-shadow:0 0 8px #ff4d6d;vertical-align:1px}
+#fade{position:fixed;inset:0;z-index:4;background:#000;opacity:0;pointer-events:none}
+#play{position:fixed;z-index:6;left:50%;bottom:64px;transform:translateX(-50%);display:flex;gap:8px;pointer-events:auto}
+#play button{min-height:44px;padding:0 18px;white-space:nowrap;border-radius:999px;border:0;background:rgba(255,255,255,.94);color:var(--bg-ink,#15171C);font:600 14px var(--bg-font,system-ui);cursor:pointer;box-shadow:var(--bg-sh-1,0 6px 18px -10px rgba(16,24,40,.28)),0 0 0 .5px rgba(16,24,40,.08)}
+#play button:hover{box-shadow:var(--bg-sh-2,0 18px 44px -18px rgba(16,24,40,.34)),0 0 0 .5px rgba(16,24,40,.12)}
+#play button[aria-expanded="true"]{background:var(--bg-ink,#15171C);color:#fff}
+body.film #play,body.film .bgs{display:none!important}
+/* nút xem giữa đáy cần chỗ: sơ đồ vị trí (phụ, trùng nội dung bảng Số đọc) chỉ hiện trên màn rộng */
+@media (max-width:1560px){#loc{display:none}}
+@media (max-width:900px){#bk{left:18px;right:auto;top:calc(var(--bg-bar,56px) + 180px);width:min(320px,calc(100vw - 36px));box-sizing:border-box}#loc,#scale{display:none}#read{display:none}#vm{width:220px}#vm .val{font-size:26px}#title h1{font-size:22px}#play{bottom:auto;top:calc(var(--bg-bar,56px) + 120px)}}
+@media (max-width:560px){#vm{display:none}#shot{bottom:calc(76px + env(safe-area-inset-bottom))}#title{padding:8px 12px}#title .brand{display:none}body.bgs-on #tag{left:18px;transform:none;top:calc(var(--bg-bar,56px) + 82px);max-width:calc(100vw - 36px);font-size:13px;line-height:1.4;letter-spacing:0;border-radius:12px;box-sizing:border-box}#play{left:18px;transform:none;top:calc(var(--bg-bar,56px) + 138px)}}
+@media (prefers-reduced-motion:reduce){#fade{transition:none}}
+</style>
+<!--BG-STD:start--><style id="bg-std">/* chuẩn thành phần Sáng Ăn Khoai: sinh bằng tools/design.py, không sửa tay */
+body.bgs-on :is(button,.btn,select){font-family:var(--bg-font)}
+body.bgs-on .btn{font-weight:600;letter-spacing:0;text-transform:none}
+body.bgs-on :is(.btn.primary,.btn.pri,.btn.gold,.btn.cta){background:var(--bg-brand)!important;background-image:none!important;border-color:var(--bg-brand)!important;color:var(--bg-brand-ink)!important;box-shadow:0 6px 16px -10px rgba(30,42,68,.65)!important;text-shadow:none!important}
+body.bgs-on :is(.btn.primary,.btn.pri,.btn.gold,.btn.cta):hover:not(:disabled){filter:brightness(1.18)}
+body.bgs-on :is(.btn.on,.btn.dark,.btn[aria-pressed="true"],.chip.on,.chip[aria-pressed="true"],.seg button.on,.sw button.on){background:var(--bg-ink)!important;background-image:none!important;border-color:var(--bg-ink)!important;color:#fff!important}
+body.bgs-on :is(input[type=range],input[type=checkbox],input[type=radio]){accent-color:var(--bg-brand)}
+body.bgs-on :is(a,button,input,select,textarea,summary,[tabindex]):focus-visible{outline:2px solid var(--bg-focus)!important;outline-offset:2px}
+</style><!--BG-STD:end-->
+</head>
+<body><!--BG-LOAD:start--><div id="bgs-load" role="progressbar" aria-label="Đang tải bài" aria-valuemin="0" aria-valuemax="100" aria-valuenow="8" style="position:fixed;inset:0;z-index:2147483600;background:#E9EAEE url('../thu-vien/covers/than-kinh.webp') center/cover no-repeat;display:flex;align-items:flex-end;justify-content:center;padding:0 16px max(10vh,72px);transition:opacity .6s cubic-bezier(.2,.8,.2,1)"><div style="width:min(360px,100%);padding:14px 18px 16px;border-radius:16px;background:rgba(255,255,255,.9);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);box-shadow:0 18px 44px -18px rgba(16,24,40,.4);font:600 17px/1.35 'Be Vietnam Pro',system-ui,sans-serif;color:#15171C"><div id="bgs-load-k" style="font-size:13px;font-weight:500;color:#626773">Đang tải bài</div><div>Neuron và xung thần kinh</div><div style="height:4px;border-radius:2px;background:rgba(16,24,40,.1);margin-top:12px;overflow:hidden"><i style="display:block;height:100%;width:8%;border-radius:2px;background:#1E2A44;transition:width .5s cubic-bezier(.2,.8,.2,1)"></i></div></div><style>#bgs-load.out{opacity:0;pointer-events:none}@media (prefers-reduced-motion:reduce){#bgs-load i{transition:none}}</style><script>(function(){var L=document.getElementById("bgs-load"),b=L.querySelector("i"),k=document.getElementById("bgs-load-k"),p=.08,n=0;function set(v,t){if(v>p){p=v;b.style.width=Math.round(p*100)+"%";L.setAttribute("aria-valuenow",Math.round(p*100))}if(t)k.textContent=t}try{new PerformanceObserver(function(l){l.getEntries().forEach(function(){n++;set(p+(.8-p)*.18,"Đang tải "+n+" tệp")})}).observe({type:"resource",buffered:true})}catch(e){}document.addEventListener("DOMContentLoaded",function(){set(Math.max(p,.5))});var w=setInterval(function(){var c=document.querySelector("canvas");if(!document.body.contains(L))return clearInterval(w);if(c&&c.width>0){set(.92,"Đang dựng cảnh 3D");clearInterval(w)}},150)})()</script></div><!--BG-LOAD:end-->
+<div id="stage" role="img" aria-label="Neuron 3D: thân neuron, sợi nhánh, sợi trục có bao myelin và synapse. Xung thần kinh nhảy qua các eo Ranvier."></div>
+<div id="fade" aria-hidden="true"></div>
+<div class="hud top box" id="title"><div class="brand">Sinh học 11</div><h1>Neuron</h1><div class="sub">Cấu trúc · Tín hiệu · Kết nối</div></div>
+<div class="hud top" id="tag"><span id="live"></span><span id="tagT">Cảnh 1/4 · minh hoạ, màu và tỉ lệ phỏng dựng</span></div>
+<div class="hud top box" id="vm"><div class="row"><span class="k">Điện thế màng · eo 4</span><span class="k" id="vmState">nghỉ</span></div>
+  <div class="row"><span class="val" id="vmVal">−70<small>mV</small></span><span class="k">tua chậm</span></div>
+  <canvas id="vmC" width="600" height="140" aria-hidden="true"></canvas>
+  <div class="lg"><span>ngưỡng −55</span><span>nghỉ −70</span><span>đỉnh +30</span></div></div>
+<div class="hud box" id="shot" aria-live="polite"><div class="k"><b id="shotN">Cảnh 1/4</b> · <span id="shotK">Mạng neuron</span></div><h2 id="shotH"></h2><p id="shotP"></p><div class="src" id="shotS"></div><div id="ask" hidden></div></div>
+<div class="hud box" id="loc"><div class="k">Vị trí trên neuron</div><svg viewBox="0 0 210 58" aria-hidden="true"><path d="M10 34 C 30 20, 40 46, 52 30 L 160 34 C 175 35, 182 26, 196 22 M 160 34 C 176 40, 184 44, 198 46" fill="none" stroke="#9AA0AC" stroke-width="2"/><circle cx="30" cy="31" r="9" fill="#EEF0F3" stroke="#9AA0AC"/><circle id="locDot" cx="30" cy="31" r="4.5" fill="#C2184A"/></svg></div>
+<div class="hud box" id="read"><div class="k" style="margin-bottom:4px">Số đọc</div>
+  <div class="r"><span>Kênh Na⁺</span><b id="rNa">đóng</b></div>
+  <div class="r"><span>Kênh K⁺</span><b id="rK">đóng</b></div>
+  <div class="r"><span>Xung đang ở</span><b id="rPos">thân neuron</b></div>
+  <div class="r"><span>Túi synapse đã giải phóng</span><b id="rVes">0</b></div></div>
+<div class="hud" id="scale"><i></i><span>khoảng 20 µm (minh hoạ)</span></div>
+<div id="play"><button id="bPlay" type="button">Tạm dừng</button><button id="bRe" type="button">Xem lại từ đầu</button><button id="bBk" type="button" aria-expanded="false" aria-controls="bk">Thử phá</button></div>
+<div class="hud box" id="bk" hidden><div class="k">Thử phá · đẩy neuron quá giới hạn</div>
+  <label class="sl" for="bkS">Kích thích ở gò sợi trục <b id="bkV">+30 mV</b><input type="range" id="bkS" min="0" max="40" step="1" value="30"></label>
+  <div class="say" id="bkT" aria-live="polite"></div>
+  <label class="ck"><input type="checkbox" id="bkC"> So với sợi trục không có myelin</label>
+  <label class="ck"><input type="checkbox" id="bkL"> Tiêm thuốc tê (chặn kênh Na⁺ ở giữa sợi trục)</label>
+  <div class="src">Mỗi lần chỉnh, cảnh chạy lại từ lúc phát xung. Hình minh hoạ: tốc độ và vị trí phỏng dựng.</div></div>
+
+<!--BG-SHELL:start-->
+<script>window.BG_SEQ={"slug": "than-kinh", "title": "Neuron và xung thần kinh", "crumb": [{"t": "Sinh học 11", "href": "#bai-hoc"}], "next": {"title": "Cơ thể người 3D", "href": "co-the-nguoi/", "sub": "Cả cơ thể: hệ thần kinh và các hệ khác"}, "cover": "thu-vien/covers/than-kinh.webp", "subject": "Sinh học", "s": "sinh", "pack": "giao-vien/than-kinh/", "plan": [{"t": "Mỗi neuron là một tế bào truyền tin", "m": [0, 12], "gv": "Phút 0–4: nêu tình huống chạm tay vào cốc nước nóng, rụt tay lại rất nhanh; hỏi tín hiệu đi bằng cách nào, cho học sinh ghi mục 1. Phút 4–12: cho cảnh chạy, rồi dừng hình chỉ lần lượt sợi nhánh, thân, sợi trục, bao myelin, eo Ranvier, chuỳ synapse. Hỏi câu trên màn chiếu.", "hs": "Ghi dự đoán mục 1; chú thích sơ đồ neuron ở mục 2."}, {"t": "Thân neuron tổng hợp tín hiệu", "m": [12, 21], "gv": "Chỉ bảng điện thế màng ở góc phải: nghỉ khoảng −70 mV, ngưỡng khoảng −55 mV, đỉnh khoảng +30 mV. Cho xem lại cảnh một lần. Bấm B, cho học sinh vẽ đồ thị 3 phút. Hỏi câu trên màn chiếu.", "hs": "Vẽ đồ thị điện thế ở mục 3."}, {"t": "Xung nhảy qua các eo Ranvier", "m": [21, 30], "gv": "Cho cảnh chạy, chỉ xung nhảy từ eo này sang eo khác. Hỏi câu trên màn chiếu. Hỏi thêm: nếu một đoạn sợi trục mất bao myelin, xung đi nhanh hơn hay chậm hơn? Vì sao?", "hs": "Trả lời miệng; kiểm lại chú thích D và E ở mục 2."}, {"t": "Chất dẫn truyền vượt khe synapse", "m": [30, 45], "gv": "Phút 30–36: cho cảnh chạy, chỉ các túi ở chuỳ, khe synapse, thụ thể ở màng sau; nói thêm Ca²⁺ đi vào chuỳ khi xung tới. Hỏi câu trên màn chiếu. Phút 36–40: cặp đôi làm mục 4, gọi một cặp đọc thứ tự. Phút 40–45: học sinh làm mục 5, rồi bấm Thử phá → Tiêm thuốc tê để cả lớp thấy xung dừng giữa sợi trục, không tới synapse; thu phiếu hoặc giao về nhà.", "hs": "Trả lời câu hỏi; làm mục 4, 5 và 6 của phiếu."}]};</script>
+<script src="../shell/dist/bg-shell.min.js?v=ea90ce7617"></script>
+<!--BG-SHELL:end-->
+<script type="importmap">
+{
+ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.webgpu.js",
+  "three/webgpu": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.webgpu.js",
+  "three/tsl": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.tsl.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+ },
+ "integrity": {
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.webgpu.js": "sha384-SkTLw/lN3jv1UIxteuivToEdXgaEiflmc3P+f8n+GoIqsbu3KE8adYoNlmTYWg0u",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.tsl.js": "sha384-mTV2JED+dL4P7GN+ME+E4dwyCszzmZWF7VS6S/Y42R6oMgcD9K9bIQAZlxiyC5J7",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.core.js": "sha384-r1q8Si7xFBrvMv3Q4yjQkKhkYZ2lp+wn/bPPzNZTsc8DY4uPJmm2vheuz1Yn+8m8",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js": "sha384-tLl9+KfQJPCciIc85xSuJobNxPRrzSLDNrDFvDDTKE7fA9XvUq4UImkENfnQRUvW",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/environments/RoomEnvironment.js": "sha384-WonUB49tSHm5CcExDQcL5s5lZy4/MNADu2G8l7KoDzrZ7T3zKnU3JSic+kMfHWQU",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/objects/SkyMesh.js": "sha384-Ndo9sn3syj5Rbcb6XAwo+uLfL89l2Mtc6XtkT9FYR2ZXJz7vll8F2USUdTrd2jjd",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/tsl/display/BloomNode.js": "sha384-+yqj9lMYDxcuo7sz+GC8xoTVyFE+PkbhEf6To8Z1ToSpFpCQsILYqGXR6J98Kic7",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/tsl/display/DepthOfFieldNode.js": "sha384-vEUM7LTfQoSfRhLjiU5nzU2n/uC3pJA6QkBbaNs1qxC0QVCMMWDU4NWpvFCaJqXK",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/tsl/display/GaussianBlurNode.js": "sha384-sdwLh/+GDgeWs5eLoVAu2pHcooktwXrTgWmjPEU6jguATGgM2FU3l2s6EijkczPb",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/tsl/display/GTAONode.js": "sha384-w5pzloSXfpmnhPUjWhpashl6Xi6AUk6Gz+HceNkZCvU33r4Z4eK3+0fHeXB5IBGM",
+  "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/utils/BufferGeometryUtils.js": "sha384-Qy9m6qi71cTFsL476nB1aK+wPxxPgU6H6pn/++8gOgy4/vTtkDuFBfPo22hBhx36"
+ }
+}
+</script>
+<script type="module">
+import * as THREE from 'three/webgpu';
+import { pass, uniform, float, vec3, vec4, mix, smoothstep, abs, dot, pow, exp, sin, normalView, positionViewDirection, positionLocal, uv, screenUV, mx_noise_float } from 'three/tsl';
+import { bloom } from 'three/addons/tsl/display/BloomNode.js';
+import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+
+const $ = (id) => document.getElementById(id);
+const Q = new URLSearchParams(location.search);
+const FILM = Q.has('film');
+if (FILM) { document.body.classList.add('film'); document.getElementById('bgs-load')?.remove(); }
+if (Q.has('clean')) document.body.classList.add('clean');
+const DUR = 20;
+
+/* ---------- số giả ngẫu nhiên có hạt giống: mỗi lần mở trang là cùng một neuron ---------- */
+let seed = 20261102;
+const rnd = () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+const rr = (a, b) => a + (b - a) * rnd();
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+
+/* ---------- kết xuất ---------- */
+const renderer = new THREE.WebGPURenderer({ antialias: true, forceWebGL: location.hash === '#webgl' });
+await renderer.init();
+renderer.setPixelRatio(Math.min(devicePixelRatio, FILM ? 1 : 2));
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+$('stage').append(renderer.domElement);
+addEventListener('bg:lite', () => renderer.setPixelRatio(1));
+const scene = new THREE.Scene();
+scene.backgroundNode = mix(vec3(0.012, 0.018, 0.05), vec3(0.04, 0.03, 0.10), float(1).sub(smoothstep(0.0, 0.75, screenUV.sub(0.5).length())));
+const camera = new THREE.PerspectiveCamera(38, 1, 0.02, 200);
+const tU = uniform(0);
+
+/* ---------- vật liệu: màng phát sáng ở viền (fresnel), cộng sáng để loá sáng ăn vào ---------- */
+const fres = (p) => pow(float(1).sub(abs(dot(normalView, positionViewDirection))), float(p));
+function glowMat(base, rim, { p = 2.2, k = 1, noise = 0, op = 1 } = {}) {
+  const m = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, side: THREE.FrontSide });
+  let c = vec3(...base).add(vec3(...rim).mul(fres(p)).mul(k));
+  if (noise) c = c.mul(float(0.75).add(mx_noise_float(positionLocal.mul(noise).add(tU.mul(0.15))).mul(0.5)));
+  m.colorNode = c.mul(op); return m;
+}
+
+/* ---------- ống thuôn dọc một đường cong (sợi nhánh, sợi trục) ---------- */
+function taperTube(pts, r0, r1, radial = 10, perUnit = 14) {
+  const curve = new THREE.CatmullRomCurve3(pts, false, 'centripetal');
+  const len = curve.getLength(), n = Math.max(8, Math.round(len * perUnit));
+  const fr = curve.computeFrenetFrames(n, false), pos = [], uvs = [], idx = [];
+  for (let i = 0; i <= n; i++) {
+    const t = i / n, p = curve.getPointAt(t), r = r0 + (r1 - r0) * Math.pow(t, 0.8);
+    for (let j = 0; j <= radial; j++) {
+      const a = j / radial * Math.PI * 2, N = fr.normals[i], B = fr.binormals[i];
+      pos.push(p.x + r * (Math.cos(a) * N.x + Math.sin(a) * B.x), p.y + r * (Math.cos(a) * N.y + Math.sin(a) * B.y), p.z + r * (Math.cos(a) * N.z + Math.sin(a) * B.z));
+      uvs.push(t, j / radial);
+    }
+  }
+  for (let i = 0; i < n; i++) for (let j = 0; j < radial; j++) { const a = i * (radial + 1) + j, b = a + radial + 1; idx.push(a, b, a + 1, b, b + 1, a + 1); }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); g.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2)); g.setIndex(idx); g.computeVertexNormals();
+  g.userData.curve = curve; return g;
+}
+function wander(start, dir, len, steps, amp) {
+  const pts = [start.clone()], d = dir.clone().normalize(), p = start.clone();
+  for (let i = 1; i <= steps; i++) { d.add(V(rr(-amp, amp), rr(-amp, amp), rr(-amp, amp))).normalize(); p.addScaledVector(d, len / steps); pts.push(p.clone()); }
+  return pts;
+}
+
+/* ---------- một neuron: thân, nhân, cây sợi nhánh ---------- */
+function makeNeuron(center, scale, bright, dendDir) {
+  const g = new THREE.Group(); g.position.copy(center); g.scale.setScalar(scale); scene.add(g);
+  const somaG = new THREE.IcosahedronGeometry(1, 5), P = somaG.attributes.position, v = new THREE.Vector3();
+  for (let i = 0; i < P.count; i++) { v.fromBufferAttribute(P, i); const n = 1 + 0.12 * Math.sin(v.x * 3.1 + 1.3) * Math.sin(v.y * 2.7) + 0.08 * Math.sin(v.z * 4.2 + v.x * 2.0); v.multiplyScalar(n); v.x *= 1.12; P.setXYZ(i, v.x, v.y, v.z); }
+  somaG.computeVertexNormals();
+  const soma = new THREE.Mesh(somaG, glowMat([0.03 * bright, 0.02 * bright, 0.08 * bright], [0.42 * bright, 0.45 * bright, 1.3 * bright], { p: 2.4, noise: 2.2, op: 0.8 }));
+  g.add(soma);
+  const nuc = new THREE.Mesh(new THREE.IcosahedronGeometry(0.42, 4), glowMat([0.25 * bright, 0.08 * bright, 0.45 * bright], [0.9 * bright, 0.4 * bright, 1.8 * bright], { p: 1.4, noise: 5 }));
+  nuc.position.set(0.12, 0.1, 0.1); g.add(nuc);
+  const nucleolus = new THREE.Mesh(new THREE.IcosahedronGeometry(0.13, 2), glowMat([1.2 * bright, 0.5 * bright, 1.4 * bright], [1, 0.6, 1.6], { p: 1 }));
+  nucleolus.position.set(0.2, 0.16, 0.18); g.add(nucleolus);
+  // sợi nhánh: 7 nhánh chính, mỗi nhánh tách 2 tầng
+  const geos = [], curves = [];
+  const grow = (start, dir, len, r, depth) => {
+    const pts = wander(start, dir, len, 6, 0.35), geo = taperTube(pts, r, r * 0.35, 8, 10);
+    geos.push(geo); curves.push(geo.userData.curve);
+    if (depth > 0) for (let k = 0; k < 2; k++) { const t = rr(0.45, 0.8), c = geo.userData.curve, s = c.getPointAt(t), d = c.getTangentAt(t).add(V(rr(-0.9, 0.9), rr(-0.9, 0.9), rr(-0.9, 0.9))); grow(s, d, len * rr(0.55, 0.75), r * 0.55, depth - 1); }
+  };
+  for (let k = 0; k < 7; k++) { const a = k / 7 * Math.PI * 2 + rr(-0.3, 0.3), d = V(Math.cos(a) * 0.9 - (dendDir || 0), Math.sin(a), rr(-0.7, 0.7)).normalize(); grow(d.clone().multiplyScalar(0.85), d, rr(2.6, 3.6), 0.17, 2); }
+  const dm = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending });
+  { const along = uv().x, tint = mix(vec3(0.55, 0.35, 1.5), mix(vec3(0.3, 0.9, 1.6), vec3(1.5, 0.45, 1.0), smoothstep(0.55, 1.0, along)), smoothstep(0.0, 0.5, along));
+    const shimmer = float(0.7).add(mx_noise_float(positionLocal.mul(6).add(tU.mul(0.4))).mul(0.6));
+    dm.colorNode = vec3(0.02, 0.02, 0.06).add(tint.mul(fres(1.7)).mul(shimmer).mul(0.62 * bright)); }
+  const dend = new THREE.Mesh(mergeGeometries(geos), dm);
+  g.add(dend);
+  return { g, soma, nuc, curves };
+}
+
+const N1 = makeNeuron(V(0, 0, 0), 1, 1, 0.6);
+const N2 = makeNeuron(V(20.5, -2.6, 3.6), 0.95, 0.75, -0.8);
+const N3 = makeNeuron(V(-9, 6, -14), 1.1, 0.35, 0);
+const N4 = makeNeuron(V(9, 9, -18), 1.2, 0.3, 0);
+
+/* ---------- sợi trục có bao myelin, 12 eo Ranvier ---------- */
+const AX = [V(0.95, -0.25, 0), V(2.6, -0.55, 0.25), V(5.5, -0.35, -0.2), V(8.6, -0.85, 0.35), V(11.6, -1.15, 0.05), V(14.3, -1.4, 0.55), V(15.8, -1.6, 0.9)];
+const axG = taperTube(AX, 0.16, 0.11, 10, 12), axC = axG.userData.curve;
+const pulseU = uniform(-1), pulseA = uniform(0), pulseU2 = uniform(-1);
+const axMat = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending });
+{ const band = exp(abs(uv().x.sub(pulseU)).mul(-38)).mul(pulseA);
+  const ghost = exp(abs(uv().x.sub(pulseU2)).mul(-30)).mul(smoothstep(0.0, 0.001, pulseU2));
+  axMat.colorNode = vec3(0.03, 0.04, 0.10).add(vec3(0.35, 0.6, 1.4).mul(fres(1.8))).add(vec3(2.4, 1.3, 0.35).mul(band)).add(vec3(0.9, 0.35, 1.6).mul(ghost)); }
+scene.add(new THREE.Mesh(axG, axMat));
+const NODES = Array.from({ length: 12 }, (_, k) => 0.11 + k * (0.9 - 0.11) / 11);
+const myelinMat = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending });
+myelinMat.colorNode = vec3(0.025, 0.03, 0.08).add(vec3(0.35, 0.5, 1.25).mul(fres(2.0)).mul(float(0.8).add(sin(positionLocal.y.mul(60)).mul(0.2))));
+for (let k = 0; k < NODES.length - 1; k++) {
+  const a = NODES[k] + 0.012, b = NODES[k + 1] - 0.012, pa = axC.getPointAt(a), pb = axC.getPointAt(b), mid = pa.clone().add(pb).multiplyScalar(0.5), L = pa.distanceTo(pb);
+  const m = new THREE.Mesh(new THREE.CapsuleGeometry(0.27, Math.max(0.05, L - 0.5), 6, 16), myelinMat);
+  m.position.copy(mid); m.quaternion.setFromUnitVectors(V(0, 1, 0), pb.clone().sub(pa).normalize()); scene.add(m);
+}
+const nodeMeshes = NODES.map((u) => {
+  const c = uniform(new THREE.Color(0, 0, 0)), m = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending });
+  m.colorNode = vec3(0.35, 0.2, 0.05).add(vec3(c)).mul(float(0.45).add(fres(1.2)));
+  const mesh = new THREE.Mesh(new THREE.TorusGeometry(0.2, 0.06, 8, 28), m);
+  mesh.position.copy(axC.getPointAt(u)); mesh.quaternion.setFromUnitVectors(V(0, 0, 1), axC.getTangentAt(u)); scene.add(mesh); mesh.userData.c = c; return mesh;
+});
+
+/* ---------- tận cùng sợi trục, chuỳ synapse, sợi nhánh neuron sau ---------- */
+const POST = [V(17.35, -2.8, 0.2), V(17.15, -1.7, 0.9), V(17.0, -0.6, 1.5), V(17.3, 0.6, 2.2), V(18.6, 1.0, 3.0)];
+const postG = taperTube(POST, 0.16, 0.12, 12, 16), postC = postG.userData.curve;
+scene.add(new THREE.Mesh(postG, glowMat([0.015, 0.02, 0.05], [0.3, 0.5, 1.1], { p: 2.6, noise: 4 })));
+const BOUT = [0.27, 0.45, 0.6].map((t) => { const p = postC.getPointAt(t); return p.clone().add(V(-0.38, 0.02, -0.04)); });
+const termGeos = BOUT.map((b) => taperTube([AX[6], AX[6].clone().lerp(b, 0.5).add(V(0, 0.15, 0)), b], 0.09, 0.06, 8, 18));
+scene.add(new THREE.Mesh(mergeGeometries(termGeos), glowMat([0.03, 0.04, 0.10], [0.35, 0.6, 1.4], { p: 1.8 })));
+const boutU = uniform(0);
+const boutMat = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending });
+boutMat.colorNode = vec3(0.05, 0.02, 0.05).add(vec3(1.1, 0.4, 0.9).mul(fres(2.2))).add(vec3(1.6, 0.8, 0.3).mul(boutU).mul(fres(0.8)));
+BOUT.forEach((b) => { const m = new THREE.Mesh(new THREE.IcosahedronGeometry(0.21, 4), boutMat); m.position.copy(b); scene.add(m); });
+// túi chứa chất dẫn truyền trong chuỳ thứ nhất
+const B0 = BOUT[0], postP0 = postC.getPointAt(0.27), toPost = postP0.clone().sub(B0).normalize();
+const VES = Array.from({ length: 22 }, () => { const d = V(rr(-1, 1), rr(-1, 1), rr(-1, 1)).normalize(); return { home: B0.clone().addScaledVector(d, rr(0.04, 0.14)), fuse: rr(15.5, 17.6) }; });
+const vesMat = glowMat([0.35, 0.12, 0.25], [1.6, 0.6, 1.3], { p: 1.2 });
+const vesMesh = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(0.026, 2), vesMat, VES.length); scene.add(vesMesh);
+// phân tử chất dẫn truyền đi qua khe synapse
+const NT = Array.from({ length: 260 }, (_, i) => ({ t0: 15.7 + (i / 260) * 3.0 + rr(0, 0.25), off: V(rr(-1, 1), rr(-1, 1), rr(-1, 1)).multiplyScalar(0.06), spd: rr(0.7, 1.2) }));
+const ntMat = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending }); ntMat.colorNode = vec3(2.2, 1.4, 0.4);
+const ntMesh = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(0.009, 1), ntMat, NT.length); scene.add(ntMesh);
+// thụ thể sáng lên ở màng sau
+const recU = uniform(0); const recMat = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending });
+recMat.colorNode = vec3(0.4, 1.6, 1.2).mul(recU);
+const rec = new THREE.InstancedMesh(new THREE.CylinderGeometry(0.012, 0.012, 0.03, 6), recMat, 30); scene.add(rec);
+{ const m4 = new THREE.Matrix4(), q = new THREE.Quaternion().setFromUnitVectors(V(0, 1, 0), toPost.clone().negate());
+  for (let i = 0; i < 30; i++) { const p = postP0.clone().addScaledVector(toPost, -0.15).add(V(rr(-0.09, 0.09), rr(-0.09, 0.09), rr(-0.09, 0.09))); m4.compose(p, q, V(1, 1, 1)); rec.setMatrixAt(i, m4); } }
+
+/* ---------- tín hiệu đi vào theo sợi nhánh, bụi ngoại bào ---------- */
+const SP = Array.from({ length: 30 }, (_, i) => ({ c: N1.curves[i % N1.curves.length], t0: rr(0, 20), sp: rr(0.35, 0.6) }));
+const spMat = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending }); spMat.colorNode = vec3(1.0, 1.6, 2.4);
+const spMesh = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(0.045, 1), spMat, SP.length); scene.add(spMesh);
+const dustMat = new THREE.MeshBasicNodeMaterial({ transparent: true, depthWrite: false, blending: THREE.AdditiveBlending }); dustMat.colorNode = vec3(0.25, 0.32, 0.7);
+const dust = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(0.02, 0), dustMat, 1600); scene.add(dust);
+{ const m4 = new THREE.Matrix4(); for (let i = 0; i < 1600; i++) { m4.makeTranslation(rr(-14, 34), rr(-12, 14), rr(-24, 10)); dust.setMatrixAt(i, m4); } }
+
+/* ---------- hậu kỳ: loá sáng + tối bốn góc ---------- */
+const post = new THREE.PostProcessing(renderer);
+const sp = pass(scene, camera), col = sp.getTextureNode('output');
+const glow = bloom(col, 1.0, 0.5, 0.1);
+const EXPO = [1.0, 0.85, 0.7, 0.62], BLOOM = [1.0, 0.85, 0.75, 0.6];
+const vig = float(1).sub(smoothstep(0.35, 0.95, screenUV.sub(0.5).length()).mul(0.65));
+post.outputNode = vec4(col.rgb.add(glow.rgb).mul(vig), 1);
+
+/* ---------- dòng thời gian: 4 cảnh, xung nhảy cóc, điện thế màng ---------- */
+const T_AP = 10.4, T_NODE = (k) => T_AP + 0.3 + k * 0.38, T_TERM = T_NODE(11) + 0.35;
+const SHOTS = [
+  { a: 0, b: 5, n: 'Mạng neuron', h: 'Mỗi neuron là một tế bào truyền tin', p: 'Não người có khoảng 86 tỉ neuron. Neuron nhận tín hiệu qua các sợi nhánh, tổng hợp ở thân và truyền đi dọc một sợi trục dài tới neuron khác.', s: 'Nguồn: Azevedo và cs., J Comp Neurol 2009', ask: { q: 'Bộ phận nào của neuron nhận tín hiệu từ neuron khác?', o: ['Sợi trục', 'Sợi nhánh', 'Bao myelin'], a: 1, e: 'Sợi nhánh nhận tín hiệu và dẫn về thân neuron; sợi trục truyền tín hiệu đi.' } },
+  { a: 5, b: 10, n: 'Thân neuron', h: 'Thân neuron tổng hợp tín hiệu', p: 'Thân neuron chứa nhân. Tín hiệu từ nhiều sợi nhánh dồn về; khi điện thế màng ở gò sợi trục vượt ngưỡng, khoảng −55 mV, một xung thần kinh xuất hiện.', s: 'Nguồn: OpenStax, Anatomy and Physiology 2e, mục 12.4', ask: { q: 'Xung thần kinh xuất hiện khi nào?', o: ['Khi điện thế màng vượt ngưỡng, khoảng −55 mV', 'Khi neuron ở trạng thái nghỉ, −70 mV', 'Khi bao myelin mở ra'], a: 0, e: 'Điện thế màng ở gò sợi trục phải vượt ngưỡng thì kênh Na⁺ mới mở hàng loạt, tạo điện thế hoạt động.' } },
+  { a: 10, b: 15.5, n: 'Dẫn truyền nhảy cóc', h: 'Xung nhảy qua các eo Ranvier', p: 'Bao myelin cách điện quanh sợi trục. Xung không chạy liên tục mà nhảy từ eo Ranvier này sang eo kế tiếp, nên đi nhanh hơn nhiều so với trên sợi không có myelin.', s: 'Nguồn: OpenStax, Anatomy and Physiology 2e, mục 12.4', ask: { q: 'Vì sao xung đi nhanh hơn trên sợi trục có bao myelin?', o: ['Myelin dẫn điện như dây đồng', 'Sợi có myelin luôn ngắn hơn', 'Xung nhảy cóc qua các eo Ranvier'], a: 2, e: 'Myelin cách điện; điện thế hoạt động chỉ phát sinh ở các eo Ranvier nên xung nhảy từ eo này sang eo khác.' } },
+  { a: 15.5, b: 20, n: 'Synapse', h: 'Chất dẫn truyền vượt khe synapse', p: 'Xung tới chuỳ synapse làm các túi giải phóng chất dẫn truyền vào khe synapse. Chất dẫn truyền gắn vào thụ thể ở màng sau, tín hiệu sang neuron kế tiếp.', s: 'Nguồn: OpenStax, Anatomy and Physiology 2e, mục 12.5', ask: { q: 'Chất dẫn truyền thần kinh được giải phóng từ đâu?', o: ['Thụ thể ở màng sau synapse', 'Các túi ở chuỳ synapse', 'Nhân của neuron'], a: 1, e: 'Túi chứa chất dẫn truyền ở chuỳ synapse hoà vào màng trước, giải phóng chất dẫn truyền vào khe synapse.' } },
+];
+const ease = (x) => x < 0 ? 0 : x > 1 ? 1 : x * x * (3 - 2 * x);
+/* thử phá (bước "Let them break it" của quy trình teardown): kích thích dưới ngưỡng thì không có xung (tất cả hoặc không);
+   thuốc tê chặn kênh Na⁺ nên xung dừng ở eo BLK; so sánh với một xung ma chạy liên tục, chậm 4 lần, như trên sợi không myelin */
+const BK = { stim: 30, cmp: false, lido: false, BLK: 6 };
+const fires = () => -70 + BK.stim >= -55;
+const synOK = () => fires() && !BK.lido;
+const tSyn = (t) => synOK() ? t : Math.min(t, 15.4);
+const shotOf = (t) => SHOTS.findIndex((s) => t >= s.a && t < s.b);
+function pulseUAt(t) {
+  if (!fires()) return -1;
+  if (BK.lido && t >= T_NODE(BK.BLK)) return NODES[BK.BLK];
+  return pulseUAt0(t);
+}
+function pulseU2At(t) { if (!BK.cmp || !fires() || t < T_AP) return -1; return Math.min(1, NODES[0] + (1 - NODES[0]) * (t - T_AP) / (4 * (T_NODE(11) - T_AP))); }
+function pulseUAt0(t) { if (t < T_AP) return -1; if (t < T_NODE(0)) return 0.04 + (NODES[0] - 0.04) * (t - T_AP) / 0.3; for (let k = 11; k >= 0; k--) if (t >= T_NODE(k)) return k === 11 ? NODES[11] + (1 - NODES[11]) * ease((t - T_NODE(11)) / 0.35) : NODES[k]; return -1; }
+// máy quay bám xung một cách mượt và tất định (không phụ thuộc tốc độ khung hình)
+function camU(t) { if (t < T_AP) return 0.05; if (t < T_NODE(11)) return 0.05 + (NODES[11] - 0.05) * ease((t - T_AP) / (T_NODE(11) - T_AP)) ; return Math.min(0.97, NODES[11] + (0.97 - NODES[11]) * ease((t - T_NODE(11)) / 0.6)); }
+function camAt(t, out) {
+  const k = shotOf(t), s = SHOTS[Math.max(0, k)], x = ease((t - s.a) / (s.b - s.a));
+  if (k <= 0) { const a = -0.35 + x * 0.5; out.pos.set(8 + Math.sin(a) * 22, 4.5 - x * 1.2, Math.cos(a) * 22); out.tgt.set(8.5, -1, 0.8); out.fov = 40; }
+  else if (k === 1) { out.pos.set(-1.6 + x * 1.3, 1.5 - x * 0.6, 6.6 - x * 2.8); out.tgt.set(0.2, 0, 0); out.fov = 36; }
+  else if (k === 2) { out.tgt.copy(axC.getPointAt(Math.max(0, Math.min(1, camU(t))))); out.pos.copy(out.tgt).add(V(-1.0, 1.9, 5.4)); out.fov = 34; }
+  else { out.tgt.copy(B0).lerp(postP0, 0.5); out.pos.copy(out.tgt).add(V(-0.7 - x * 0.2, 0.75 - x * 0.2, 2.4 - x * 0.7)); out.fov = 32; }
+}
+function vmAt(t) {
+  if (!fires()) return -70 + 0.6 * Math.sin(t * 7.3);
+  const tau = t - T_NODE(3);
+  if (tau < -0.06) return -70 + 0.6 * Math.sin(t * 7.3);
+  if (tau < 0.12) return -70 + 100 * ease((tau + 0.06) / 0.18);
+  if (tau < 0.45) return 30 - 110 * ease((tau - 0.12) / 0.33);
+  if (tau < 1.6) return -80 + 10 * ease((tau - 0.45) / 1.15);
+  return -70 + 0.6 * Math.sin(t * 7.3);
+}
+
+/* ---------- vẽ bảng điện thế, chữ cảnh ---------- */
+const vmC = $('vmC'), vctx = vmC.getContext('2d');
+function drawVm(t) {
+  const W = vmC.width, H = vmC.height, y = (v) => H - 10 - (v + 90) / 130 * (H - 20);
+  vctx.clearRect(0, 0, W, H);
+  vctx.strokeStyle = 'rgba(16,24,40,.14)'; vctx.lineWidth = 1; vctx.setLineDash([4, 6]);
+  for (const v of [-55, -70, 30]) { vctx.beginPath(); vctx.moveTo(0, y(v)); vctx.lineTo(W, y(v)); vctx.stroke(); }
+  vctx.setLineDash([]); vctx.lineWidth = 3; vctx.strokeStyle = '#C2184A'; vctx.shadowColor = 'transparent'; vctx.shadowBlur = 0; vctx.beginPath();
+  for (let i = 0; i <= 150; i++) { const tt = t - 3 + i / 150 * 3, xx = i / 150 * W, yy = y(vmAt(tt)); i ? vctx.lineTo(xx, yy) : vctx.moveTo(xx, yy); }
+  vctx.stroke(); vctx.shadowBlur = 0;
+}
+let lastShot = -1;
+function hud(t) {
+  const k = Math.max(0, shotOf(t)), s = SHOTS[k];
+  if (k !== lastShot) { lastShot = k; $('shotN').textContent = `Cảnh ${k + 1}/4`; $('shotK').textContent = s.n; $('shotH').textContent = s.h; $('shotP').textContent = s.p; $('shotS').textContent = s.s; $('tagT').textContent = `Cảnh ${k + 1}/4 · minh hoạ, màu và tỉ lệ phỏng dựng`; }
+  const v = vmAt(t); $('vmVal').innerHTML = `${v < 0 ? '−' : '+'}${Math.abs(Math.round(v))}<small>mV</small>`;
+  const tau = fires() ? t - T_NODE(3) : -9; const st = tau < -0.06 || tau > 1.6 ? 'nghỉ' : tau < 0.12 ? 'khử cực' : tau < 0.45 ? 'tái phân cực' : 'ưu phân cực';
+  $('vmState').textContent = st; $('vmState').className = 'k' + (st === 'nghỉ' ? '' : ' on');
+  const na = fires() && tau >= -0.06 && tau < 0.14, kk = fires() && tau >= 0.08 && tau < 0.7;
+  $('rNa').textContent = na ? 'mở' : 'đóng'; $('rNa').className = na ? 'on' : ''; $('rK').textContent = kk ? 'mở' : 'đóng'; $('rK').className = kk ? 'on' : '';
+  const u = pulseUAt(t); let pos = 'thân neuron';
+  if (t >= T_AP && t < T_NODE(0)) pos = 'gò sợi trục'; else if (u >= NODES[0] && t < T_TERM) pos = `eo Ranvier ${Math.min(12, 1 + NODES.findLastIndex((n) => n <= u + 1e-6))}/12`; else if (t >= T_TERM) pos = 'chuỳ synapse';
+  if (!fires() && t >= T_AP) pos = 'không có xung'; else if (BK.lido && t >= T_NODE(BK.BLK) && t < T_TERM + 2) pos = `bị chặn ở eo ${BK.BLK + 1}`;
+  $('rPos').textContent = pos;
+  if (BK.cmp && fires() && !BK.lido && t >= T_AP && t < T_TERM + 1 && !$('bk').hidden) { const u2 = pulseU2At(t); $('bkT').textContent = `Xung vàng (có myelin): ${pos}. Xung tím (không myelin) mới đi được ${Math.round(Math.max(0, (u2 - NODES[0]) / (1 - NODES[0])) * 100)}% sợi trục.`; } $('rVes').textContent = String(VES.filter((q) => tSyn(t) > q.fuse + 0.3).length);
+  const lx = t < 10 ? 30 : t < T_TERM ? 52 + (Math.max(0, u) * 108) : 186; $('locDot').setAttribute('cx', lx.toFixed(1)); $('locDot').setAttribute('cy', (t < T_TERM ? 32 : 40).toString());
+  const cut = SHOTS.reduce((m, sh) => Math.min(m, Math.abs(t - sh.a), Math.abs(t - sh.b)), 9);
+  $('fade').style.opacity = String(Math.max(0, 1 - cut / 0.28));
+  drawVm(t);
+}
+
+/* ---------- cập nhật cảnh theo thời gian ---------- */
+const m4 = new THREE.Matrix4(), qI = new THREE.Quaternion(), one = V(1, 1, 1), cam = { pos: V(), tgt: V(), fov: 38 }, tmp = V();
+function update(t) {
+  tU.value = t;
+  { const k = Math.max(0, shotOf(t)); renderer.toneMappingExposure = EXPO[k]; glow.strength.value = BLOOM[k]; }
+  camAt(t, cam); camera.position.copy(cam.pos); camera.lookAt(cam.tgt); if (camera.fov !== cam.fov) { camera.fov = cam.fov; camera.updateProjectionMatrix(); }
+  // xung trên sợi trục
+  const u = pulseUAt(t); pulseU.value = u; pulseA.value = u < 0 || t > T_TERM + 0.4 || (BK.lido && t > T_NODE(BK.BLK) + 0.6) ? 0 : 1; pulseU2.value = pulseU2At(t);
+  nodeMeshes.forEach((m, k) => { const dt = (!fires() || (BK.lido && k > BK.BLK)) ? -1 : t - T_NODE(k), e = dt < 0 ? 0 : Math.exp(-dt / 0.35) * 3.2; if (BK.lido && k === BK.BLK + 1) m.userData.c.value.setRGB(1.6, 0.12, 0.2); else m.userData.c.value.setRGB(0.05 + e * 1.0, 0.05 + e * 0.55, 0.12 + e * 0.15); });
+  const ts = tSyn(t);
+  boutU.value = synOK() && t > T_TERM ? Math.exp(-(t - T_TERM) / 1.6) * 1.2 : 0;
+  // thân neuron loé khi phát xung
+  const fire = t > T_AP - 0.5 && t < T_AP + 0.6 ? Math.exp(-Math.abs(t - T_AP) / 0.25) * (fires() ? 1 : 0.3) : 0; N1.soma.scale.setScalar(1 + fire * 0.04);
+  // tín hiệu vào theo sợi nhánh (đi về thân)
+  SP.forEach((s, i) => { const ph = ((t * s.sp + s.t0) % 1.6) / 1.6; const p = s.c.getPointAt(Math.max(0, Math.min(1, 1 - ph))); m4.compose(p, qI, one.clone().multiplyScalar(ph < 1 ? 1 : 0.001)); spMesh.setMatrixAt(i, m4); }); spMesh.instanceMatrix.needsUpdate = true;
+  // túi synapse tiến tới màng rồi hoà vào
+  VES.forEach((q, i) => { const x = ease((ts - q.fuse) / 0.5); tmp.copy(q.home).lerp(B0.clone().addScaledVector(toPost, 0.19), x); const sc = ts > q.fuse + 0.5 ? 0.001 : 1; m4.compose(tmp, qI, one.clone().multiplyScalar(sc)); vesMesh.setMatrixAt(i, m4); }); vesMesh.instanceMatrix.needsUpdate = true;
+  // chất dẫn truyền khuếch tán qua khe
+  NT.forEach((n, i) => { const x = (ts - n.t0) * n.spd; let sc = 0.001; tmp.copy(B0).addScaledVector(toPost, 0.2);
+    if (x > 0 && x < 1.4) { sc = 1; tmp.addScaledVector(toPost, Math.min(0.16, x * 0.14)).add(n.off.clone().multiplyScalar(0.4 + x)); }
+    m4.compose(tmp, qI, one.clone().multiplyScalar(sc)); ntMesh.setMatrixAt(i, m4); }); ntMesh.instanceMatrix.needsUpdate = true;
+  recU.value = synOK() && t > 16.1 ? Math.min(1, (t - 16.1) / 0.8) * (0.7 + 0.3 * Math.sin(t * 6)) : 0;
+  dust.rotation.y = t * 0.004;
+  hud(t);
+}
+
+/* ---------- khung hình ---------- */
+function resize() { const w = innerWidth, h = innerHeight; renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix(); }
+addEventListener('resize', resize); resize();
+let t = Number(Q.get('t')) || 0, playing = !Q.has('still'), last = performance.now(), stopAt = null;
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+async function frame(now) {
+  const dt = Math.min(0.05, (now - last) / 1000); last = now;
+  if (playing) { t += reduced ? dt * 0.6 : dt; if (stopAt !== null && t >= stopAt) { t = stopAt - 0.001; playing = false; stopAt = null; $('bPlay').textContent = 'Phát'; } if (t >= DUR) t -= DUR; }
+  update(t); await post.renderAsync();
+  requestAnimationFrame(frame);
+}
+$('bPlay').onclick = () => { playing = !playing; stopAt = null; $('bPlay').textContent = playing ? 'Tạm dừng' : 'Phát'; };
+$('bRe').onclick = () => { t = 0; playing = true; stopAt = null; $('bPlay').textContent = 'Tạm dừng'; };
+// kết xuất từng khung theo thời gian cố định (dựng video): window.NEURON.renderAt(t)
+window.NEURON = { bk: BK, duration: DUR, renderAt: async (tt) => { playing = false; t = tt; update(tt); await post.renderAsync(); }, shots: SHOTS };
+if (FILM) { playing = false; update(t); await post.renderAsync(); } else requestAnimationFrame(frame);
+
+const escH = (x) => String(x).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+function showAsk(i) {
+  const a = SHOTS[i].ask, box = $('ask'); if (!a) { box.hidden = true; return; }
+  box.className = ''; box.hidden = false;
+  box.innerHTML = `<b>${escH(a.q)}</b>` + a.o.map((o, k) => `<button type="button" data-o="${k}" class="${k === a.a ? 'ok' : ''}">${escH(o)}</button>`).join('') + `<div class="e">${escH(a.e)}</div>`;
+}
+$('ask').addEventListener('click', (e) => { const b = e.target.closest('[data-o]'); if (!b) return; $('ask').querySelectorAll('button').forEach((x) => x.disabled = true); b.classList.add('pick'); $('ask').classList.add('rev'); });
+const bkSay = () => {
+  const v = -70 + BK.stim; $('bkV').textContent = `+${BK.stim} mV`;
+  $('bkT').textContent = !fires() ? `−70 + ${BK.stim} = −${Math.abs(v)} mV, chưa tới ngưỡng −55 mV: không có xung. Kéo tới ngưỡng thì có xung; vượt ngưỡng nhiều hơn, xung cũng không cao hơn (quy luật tất cả hoặc không).`
+    : BK.lido ? `Vượt ngưỡng, có xung; nhưng thuốc tê chặn kênh Na⁺ nên xung dừng ở eo ${BK.BLK + 1}, không tới synapse: tín hiệu đau không về não.`
+    : BK.cmp ? 'Vượt ngưỡng. Xung vàng nhảy cóc qua eo Ranvier; xung tím chạy liên tục, chậm hơn, như trên sợi không có myelin.'
+    : `${v < 0 ? '−' : '+'}${Math.abs(v)} mV vượt ngưỡng −55 mV: một xung đỉnh khoảng +30 mV; kích thích mạnh hơn cũng không làm xung cao hơn.`;
+};
+const bkRun = () => { bkSay(); t = 9.6; stopAt = null; playing = true; $('bPlay').textContent = 'Tạm dừng'; };
+$('bBk').onclick = () => { const b = $('bk'); b.hidden = !b.hidden; $('bBk').setAttribute('aria-expanded', String(!b.hidden)); if (!b.hidden) bkRun(); };
+$('bkS').addEventListener('input', (e) => { BK.stim = +e.target.value; bkRun(); });
+$('bkC').addEventListener('change', (e) => { BK.cmp = e.target.checked; bkRun(); });
+$('bkL').addEventListener('change', (e) => { BK.lido = e.target.checked; bkRun(); });
+bkSay();
+addEventListener('keydown', (e) => { if (e.code === 'Space' && !e.target.closest('input,textarea,button')) { e.preventDefault(); $('bPlay').click(); } });
+/* ---------- vỏ bài Sáng Ăn Khoai: mỗi cảnh là một bước ---------- */
+if (!FILM) (function mount(n) {
+  if (!window.BGShell) return n < 100 && setTimeout(() => mount(n + 1), 100);
+  BGShell.mount({ id: 'than-kinh', title: 'Neuron và xung thần kinh', subject: 'Sinh học 11', nav: true,
+    objectives: ['Dựa vào hình vẽ, nêu được cấu tạo và chức năng của tế bào thần kinh.', 'Dựa vào sơ đồ, mô tả được cấu tạo synapse và quá trình truyền tin qua synapse.', 'Vận dụng hiểu biết về hệ thần kinh để giải thích được cơ chế giảm đau khi uống và tiêm thuốc giảm đau.'],
+    keys: [['Space', 'phát, tạm dừng'], ['← →', 'cảnh trước, cảnh sau']],
+    steps: SHOTS.map((s) => ({ t: s.h, note: s.p + '\n' + s.s, ask: s.ask })),
+    go: (i) => { t = SHOTS[i].a + 0.3; stopAt = SHOTS[i].b; playing = true; $('bPlay').textContent = 'Tạm dừng'; showAsk(i); },
+    end: () => { $('ask').hidden = true; },
+    credit: 'Bài của Sáng Ăn Khoai, phong cách điện ảnh. Neuron dựng hoàn toàn bằng mã; màu và tỉ lệ là minh hoạ. Số liệu: OpenStax, Anatomy and Physiology 2e (CC BY 4.0); Azevedo và cs., 2009.' });
+})(0);
+</script>
+</body>
+</html>

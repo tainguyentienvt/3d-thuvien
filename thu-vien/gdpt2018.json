@@ -1,0 +1,1195 @@
+{
+ "mo_ta": "Đối chiếu 54 bài thư viện, trang Hành Trình Vào Tế Bào và trang Vào Ty Thể với Chương trình GDPT 2018 (Thông tư 32/2018/TT-BGDĐT, đã soát các lần sửa đổi: Thông tư 13/2022, 17/2025). Yêu cầu cần đạt trích nguyên văn; mỗi trích dẫn đã được đối chiếu bằng máy với văn bản nguồn. muc_do: chinh = bài dạy trực tiếp yêu cầu này; lien_quan = bài hỗ trợ hoặc mở rộng.",
+ "ngay": "2026-10-30",
+ "nguon": {
+  "Sinh học": [
+   {
+    "ten": "Chương trình giáo dục phổ thông môn Sinh học (ban hành kèm theo Thông tư số 32/2018/TT-BGDĐT ngày 26/12/2018 của Bộ trưởng Bộ GD&ĐT), bản PDF 65 trang của Bộ, bản sao lưu tại Trường Đại học Sư phạm – Đại học Cần Thơ (đã đọc toàn văn; trích nguyên văn từ đây)",
+    "url": "https://se.ctu.edu.vn/images/upload/bmsh/CTTT_2018"
+   },
+   {
+    "ten": "Thông tư 13/2022/TT-BGDĐT (chỉ sửa Chương trình tổng thể và môn Lịch sử; không sửa môn Sinh học)",
+    "url": "https://luatvietnam.vn/giao-duc/thong-tu-13-2022-tt-bgddt-227351-d1.html"
+   },
+   {
+    "ten": "Thông tư 17/2025/TT-BGDĐT (sửa Lịch sử và Địa lí, Địa lí 12, Lịch sử 10, GD kinh tế và pháp luật 10; không sửa môn Sinh học)",
+    "url": "https://lsvn.vn/chinh-thuc-sua-doi-bo-sung-mot-so-noi-dung-trong-chuong-trinh-giao-duc-pho-thong-a163209.html"
+   }
+  ],
+  "Vật lí": [
+   {
+    "ten": "Chương trình giáo dục phổ thông môn Vật lí (ban hành kèm Thông tư 32/2018/TT-BGDĐT), bản PDF của Bộ GD&ĐT ngày 27/12/2018, đăng lại trên trang Trường THCS An Đồng, Hải Phòng",
+    "url": "https://thcsandong.haiphong.edu.vn/van-ban-nganh/chuong-trinh-giao-duc-pho-thong-mon-vat-li-ban-hanh-kem-theo-thong-tu-so-322018/ctmb/20405/91189"
+   },
+   {
+    "ten": "Chương trình giáo dục phổ thông môn Khoa học tự nhiên (ban hành kèm Thông tư 32/2018/TT-BGDĐT), bản PDF của Bộ GD&ĐT ngày 27/12/2018, đăng lại trên trang Trường THCS An Đồng, Hải Phòng",
+    "url": "https://thcsandong.haiphong.edu.vn/van-ban-nganh/chuong-trinh-giao-duc-pho-thong-mon-khoa-hoc-tu-nhien-ban-hanh-kem-theo-thong-t/ctmb/20405/91188"
+   },
+   {
+    "ten": "Thông tư 13/2022/TT-BGDĐT (chỉ sửa Chương trình tổng thể và môn Lịch sử, không sửa Vật lí, KHTN)",
+    "url": "https://luatvietnam.vn/giao-duc/thong-tu-13-2022-tt-bgddt-227351-d1.html"
+   },
+   {
+    "ten": "Thông tư 17/2025/TT-BGDĐT (sửa Lịch sử và Địa lí, Địa lí 12, Lịch sử 10, GDCD 10; không sửa Vật lí, KHTN)",
+    "url": "https://chuyenlequydongialai.edu.vn/bo-gddt-cong-bo-noi-dung-sua-doi-bo-sung-chuong-trinh-giao-duc-pho-thong/"
+   }
+  ],
+  "Hoá học": [
+   {
+    "ten": "Chương trình giáo dục phổ thông môn Hoá học (ban hành kèm Thông tư 32/2018/TT-BGDĐT) – bản toàn văn .doc do Thư viện Pháp luật đăng",
+    "url": "https://cdn.thuvienphapluat.vn//uploads/tintuc/2025/04/09/chuong-trinh-giao-duc-pho-thong-hoa-hoc.doc"
+   },
+   {
+    "ten": "Bản đối chiếu: Chương trình GDPT môn Hoá học trên HoaTieu.vn",
+    "url": "https://hoatieu.vn/tai-lieu/chuong-trinh-giao-duc-pho-thong-mon-hoa-hoc-1395"
+   },
+   {
+    "ten": "Chương trình giáo dục phổ thông môn Khoa học tự nhiên (Bộ GD&ĐT, Hà Nội 2018, PDF gốc ban hành kèm Thông tư 32/2018/TT-BGDĐT)",
+    "url": "https://quantri.quangich.com///data/thcsthanhxuan/thcsthanhxuan/attachments/2020_3/11_ctkhoa_hoc_tu_nhien_53202020.pdf"
+   },
+   {
+    "ten": "Thông tư 13/2022/TT-BGDĐT (sửa đổi CT GDPT; không sửa nội dung môn Hoá học)",
+    "url": "https://luatvietnam.vn/giao-duc/thong-tu-13-2022-tt-bgddt-227351-d1.html"
+   },
+   {
+    "ten": "Thông tư 17/2025/TT-BGDĐT (sửa đổi Lịch sử và Địa lí, Lịch sử 10, Địa lí, GDCD; không sửa Hoá học, KHTN)",
+    "url": "https://luatvietnam.vn/giao-duc/thong-tu-17-2025-tt-bgddt-411392-d1.html"
+   }
+  ],
+  "Địa lí": [
+   {
+    "ten": "Chương trình giáo dục phổ thông môn Địa lí (ban hành kèm Thông tư 32/2018/TT-BGDĐT), bản .doc của Bộ GD&ĐT lưu trên Thư viện Pháp luật",
+    "url": "https://cdn.thuvienphapluat.vn//uploads/Hoidapphapluat/2024/TTTT/241017/GDPT/9.CT_%C4%90ia%20li.doc"
+   },
+   {
+    "ten": "Chương trình giáo dục phổ thông môn Lịch sử và Địa lí cấp THCS (ban hành kèm Thông tư 32/2018/TT-BGDĐT), bản PDF ngày 27/12/2018 do trường THCS Thanh Xuân đăng",
+    "url": "https://quantri.quangich.com///data/thcsthanhxuan/thcsthanhxuan/attachments/2020_3/7_ctlich_su_va_dia_li_thcs_53202020.pdf"
+   },
+   {
+    "ten": "Chương trình GDPT môn Lịch sử và Địa lí cấp THCS, bản toàn văn trên HoaTieu (đối chiếu chéo phần lớp 6)",
+    "url": "https://hoatieu.vn/tai-lieu/chuong-trinh-giao-duc-pho-thong-mon-lich-su-va-dia-ly-cap-trung-hoc-co-so-1390"
+   },
+   {
+    "ten": "Thông tư 17/2025/TT-BGDĐT ngày 12/9/2025 sửa đổi, bổ sung Chương trình GDPT (toàn văn Phụ lục II trên HoaTieu)",
+    "url": "https://hoatieu.vn/phap-luat/thong-tu-17-2025-tt-bgddt-237960"
+   },
+   {
+    "ten": "Bộ GD&ĐT, Tài liệu hướng dẫn thực hiện Chương trình GDPT sửa đổi môn Địa lí năm 2025 (bản do Trường THPT chuyên Lê Quý Đôn Gia Lai đăng)",
+    "url": "https://chuyenlequydongialai.edu.vn/wp-content/uploads/2025/12/5.Tai-lieu-GDPT_Mon-Dia-Li-B2.pdf"
+   },
+   {
+    "ten": "Tóm tắt Thông tư 17/2025/TT-BGDĐT trên LuatVietnam",
+    "url": "https://luatvietnam.vn/giao-duc/thong-tu-17-2025-tt-bgddt-411392-d1.html"
+   }
+  ]
+ },
+ "sinh10_te_bao": [
+  {
+   "muc": "Khái quát về tế bào",
+   "ycd": [
+    "Nêu được khái quát học thuyết tế bào.",
+    "Giải thích được tế bào là đơn vị cấu trúc và chức năng của cơ thể sống."
+   ]
+  },
+  {
+   "muc": "Thành phần hoá học của tế bào › Các nguyên tố hoá học trong tế bào",
+   "ycd": [
+    "Liệt kê được một số nguyên tố hoá học chính có trong tế bào (C, H, O, N, S, P).",
+    "Nêu được vai trò của các nguyên tố vi lượng, đa lượng trong tế bào.",
+    "Nêu được vai trò quan trọng của nguyên tố carbon trong tế bào (cấu trúc nguyên tử C có thể liên kết với chính nó và nhiều nhóm chức khác nhau)."
+   ]
+  },
+  {
+   "muc": "Thành phần hoá học của tế bào › Nước trong tế bào",
+   "ycd": [
+    "Trình bày được đặc điểm cấu tạo phân tử nước quy định tính chất vật lí, hoá học và sinh học của nước, từ đó quy định vai trò sinh học của nước trong tế bào."
+   ]
+  },
+  {
+   "muc": "Thành phần hoá học của tế bào › Các phân tử sinh học trong tế bào",
+   "ycd": [
+    "Nêu được khái niệm phân tử sinh học.",
+    "Trình bày được thành phần cấu tạo (các nguyên tố hoá học và đơn phân) và vai trò của các phân tử sinh học trong tế bào: carbohydrate, lipid, protein, nucleic acid.",
+    "Phân tích được mối quan hệ giữa cấu tạo và vai trò của các phân tử sinh học.",
+    "Nêu được một số nguồn thực phẩm cung cấp các phân tử sinh học cho cơ thể.",
+    "Vận dụng được kiến thức về thành phần hoá học của tế bào vào giải thích các hiện tượng và ứng dụng trong thực tiễn (ví dụ: ăn uống hợp lí; giải thích vì sao thịt lợn, thịt bò cùng là protein nhưng có nhiều đặc điểm khác nhau; giải thích vai trò của DNA trong xác định huyết thống, truy tìm tội phạm,...).",
+    "Thực hành xác định (định tính) được một số thành phần hoá học có trong tế bào (protein, lipid,...)."
+   ]
+  },
+  {
+   "muc": "Cấu trúc tế bào › Tế bào nhân sơ",
+   "ycd": [
+    "Mô tả được kích thước, cấu tạo và chức năng các thành phần của tế bào nhân sơ."
+   ]
+  },
+  {
+   "muc": "Cấu trúc tế bào › Tế bào nhân thực",
+   "ycd": [
+    "Phân tích được mối quan hệ phù hợp giữa cấu tạo và chức năng của thành tế bào (ở tế bào thực vật) và màng sinh chất.",
+    "Nêu được cấu tạo và chức năng của tế bào chất.",
+    "Trình bày được cấu trúc của nhân tế bào và chức năng quan trọng của nhân.",
+    "Phân tích được mối quan hệ giữa cấu tạo và chức năng của các bào quan trong tế bào.",
+    "Quan sát hình vẽ, lập được bảng so sánh cấu tạo tế bào thực vật và động vật.",
+    "Lập được bảng so sánh tế bào nhân sơ và tế bào nhân thực.",
+    "Thực hành làm được tiêu bản và quan sát được tế bào sinh vật nhân sơ (vi khuẩn).",
+    "Làm được tiêu bản hiển vi tế bào nhân thực (củ hành tây, hành ta, thài lài tía, hoa lúa, bí ngô, tế bào niêm mạc xoang miệng,...) và quan sát nhân, một số bào quan trên tiêu bản đó."
+   ]
+  },
+  {
+   "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Khái niệm trao đổi chất ở tế bào",
+   "ycd": [
+    "Nêu được khái niệm trao đổi chất ở tế bào."
+   ]
+  },
+  {
+   "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Sự vận chuyển các chất qua màng sinh chất (+ Vận chuyển thụ động; + Vận chuyển chủ động; + Nhập, xuất bào)",
+   "ycd": [
+    "Phân biệt được các hình thức vận chuyển các chất qua màng sinh chất: vận chuyển thụ động, chủ động. Nêu được ý nghĩa của các hình thức đó. Lấy được ví dụ minh hoạ.",
+    "Trình bày được hiện tượng nhập bào và xuất bào thông qua biến dạng của màng sinh chất. Lấy được ví dụ minh hoạ.",
+    "Vận dụng những hiểu biết về sự vận chuyển các chất qua màng sinh chất để giải thích một số hiện tượng thực tiễn (muối dưa, muối cà).",
+    "Làm được thí nghiệm và quan sát hiện tượng co và phản co nguyên sinh (tế bào hành, tế bào máu,...); thí nghiệm tính thấm có chọn lọc của màng sinh chất tế bào sống."
+   ]
+  },
+  {
+   "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Các loại năng lượng",
+   "ycd": [
+    "Phân biệt được các dạng năng lượng trong chuyển hoá năng lượng ở tế bào.",
+    "Giải thích được năng lượng được tích luỹ và sử dụng cho các hoạt động sống của tế bào là dạng hoá năng (năng lượng tiềm ẩn trong các liên kết hoá học).",
+    "Phân tích được cấu tạo và chức năng của ATP về giá trị năng lượng sinh học."
+   ]
+  },
+  {
+   "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Khái niệm trao đổi chất và chuyển hoá năng lượng trong tế bào",
+   "ycd": [
+    "Phát biểu được khái niệm chuyển hoá năng lượng trong tế bào.",
+    "Trình bày được quá trình tổng hợp và phân giải ATP gắn liền với quá trình tích lũy, giải phóng năng lượng."
+   ]
+  },
+  {
+   "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Enzyme",
+   "ycd": [
+    "Trình bày được vai trò của enzyme trong quá trình trao đổi chất và chuyển hoá năng lượng. Nêu được khái niệm, cấu trúc và cơ chế tác động của enzyme.",
+    "Phân tích được các yếu tố ảnh hưởng đến hoạt động xúc tác của enzyme.",
+    "Thực hành: làm được thí nghiệm phân tích ảnh hưởng của một số yếu tố đến hoạt tính của enzyme; thí nghiệm kiểm tra hoạt tính thuỷ phân tinh bột của amylase."
+   ]
+  },
+  {
+   "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Tổng hợp các chất và tích luỹ năng lượng trong tế bào",
+   "ycd": [
+    "Nêu được khái niệm tổng hợp các chất trong tế bào. Lấy được ví dụ minh hoạ (tổng hợp protein, lipid, carbohydrate,...).",
+    "Trình bày được quá trình tổng hợp các chất song song với tích luỹ năng lượng.",
+    "Nêu được vai trò quan trọng của quang hợp trong việc tổng hợp các chất và tích luỹ năng lượng trong tế bào thực vật.",
+    "Nêu được vai trò của hoá tổng hợp và quang khử ở vi khuẩn."
+   ]
+  },
+  {
+   "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Phân giải các chất và giải phóng năng lượng trong tế bào",
+   "ycd": [
+    "Phát biểu được khái niệm phân giải các chất trong tế bào.",
+    "Trình bày được các giai đoạn phân giải hiếu khí (hô hấp tế bào) và các giai đoạn phân giải kị khí (lên men).",
+    "Trình bày được quá trình phân giải các chất song song với giải phóng năng lượng.",
+    "Phân tích được mối quan hệ giữa tổng hợp và phân giải các chất trong tế bào."
+   ]
+  },
+  {
+   "muc": "Thông tin ở tế bào › Khái niệm",
+   "ycd": [
+    "Nêu được khái niệm về thông tin giữa các tế bào."
+   ]
+  },
+  {
+   "muc": "Thông tin ở tế bào › Quá trình",
+   "ycd": [
+    "Dựa vào sơ đồ thông tin giữa các tế bào, trình bày được các quá trình: + Tiếp nhận: Một phân tử truyền tin liên kết vào một protein thụ thể làm thụ thể thay đổi hình dạng; + Truyền tin: các chuỗi tương tác phân tử chuyển tiếp tín hiệu từ các thụ thể tới các phân tử đích trong tế bào; + Đáp ứng: Tế bào phát tín hiệu điều khiển phiên mã, dịch mã hoặc điều hoà hoạt động của tế bào."
+   ]
+  },
+  {
+   "muc": "Chu kì tế bào và phân bào › Chu kì tế bào và nguyên phân",
+   "ycd": [
+    "Nêu được khái niệm chu kì tế bào. Dựa vào sơ đồ, trình bày được các giai đoạn và mối quan hệ giữa các giai đoạn trong chu kì tế bào.",
+    "Dựa vào cơ chế nhân đôi và phân li của nhiễm sắc thể để giải thích được quá trình nguyên phân là cơ chế sinh sản của tế bào.",
+    "Giải thích được sự phân chia tế bào một cách không bình thường có thể dẫn đến ung thư. Trình bày được một số thông tin về bệnh ung thư ở Việt Nam. Nêu được một số biện pháp phòng tránh ung thư.",
+    "Thực hành làm được tiêu bản nhiễm sắc thể để quan sát quá trình nguyên phân (hành tây, hành ta, đại mạch, cây tỏi, lay ơn, khoai môn,...)."
+   ]
+  },
+  {
+   "muc": "Chu kì tế bào và phân bào › Quá trình giảm phân",
+   "ycd": [
+    "Dựa vào cơ chế nhân đôi và phân li của nhiễm sắc thể để giải thích được quá trình giảm phân, thụ tinh cùng với nguyên phân là cơ sở của sinh sản hữu tính ở sinh vật.",
+    "Trình bày được một số nhân tố ảnh hưởng đến quá trình giảm phân.",
+    "Lập được bảng so sánh quá trình nguyên phân và quá trình giảm phân.",
+    "Vận dụng kiến thức về nguyên phân và giảm phân vào giải thích một số vấn đề trong thực tiễn.",
+    "Làm được tiêu bản quan sát quá trình giảm phân ở tế bào động vật, thực vật (châu chấu đực, hoa hành,...)."
+   ]
+  },
+  {
+   "muc": "Công nghệ tế bào",
+   "ycd": [
+    "Nêu được khái niệm, nguyên lí công nghệ và một số thành tựu của công nghệ tế bào thực vật.",
+    "Nêu được khái niệm, nguyên lí công nghệ và một số thành tựu công nghệ tế bào động vật."
+   ]
+  },
+  {
+   "muc": "Chuyên đề học tập 10.1: Công nghệ tế bào và một số thành tựu (Thành tựu công nghệ tế bào; Các giai đoạn của công nghệ tế bào; Tế bào gốc và ứng dụng)",
+   "ycd": [
+    "Kể được tên một số thành tựu hiện đại của công nghệ tế bào.",
+    "Trình bày được tính toàn năng và các giai đoạn chung của công nghệ tế bào. Lấy được ví dụ về công nghệ tế bào thực vật, công nghệ tế bào động vật.",
+    "Nêu được khái niệm tế bào gốc. Trình bày được một số thành tựu trong sử dụng tế bào gốc.",
+    "Phân tích được triển vọng của công nghệ tế bào trong tương lai.",
+    "Thực hiện được dự án hoặc đề tài tìm hiểu về các thành tựu nuôi cấy mô, thành tựu tế bào gốc. Thiết kế được tập san các bài viết, tranh ảnh về công nghệ tế bào.",
+    "Trình bày được quan điểm của bản thân về tầm quan trọng của việc sử dụng tế bào gốc trong thực tiễn.",
+    "Tranh luận, phản biện được quan điểm về nhân bản vô tính động vật, con người."
+   ]
+  },
+  {
+   "muc": "Chuyên đề học tập 10.2: Công nghệ enzyme và ứng dụng (Cơ sở khoa học ứng dụng công nghệ enzyme; Quy trình công nghệ sản xuất enzyme; Ứng dụng của công nghệ enzyme)",
+   "ycd": [
+    "Trình bày được một số thành tựu của công nghệ enzyme.",
+    "Phân tích được cơ sở khoa học ứng dụng công nghệ enzyme.",
+    "Trình bày được quy trình công nghệ sản xuất enzyme. Lấy được một số ví dụ minh hoạ.",
+    "Trình bày được một số ứng dụng của enzyme trong các lĩnh vực: công nghệ thực phẩm, y dược, kĩ thuật di truyền.",
+    "Phân tích được triển vọng công nghệ enzyme trong tương lai.",
+    "Thực hiện được dự án hoặc đề tài tìm hiểu về ứng dụng enzyme."
+   ]
+  }
+ ],
+ "bai": {
+  "enzyme-step": {
+   "khop": [
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Enzyme",
+     "ycd": [
+      "Phân tích được các yếu tố ảnh hưởng đến hoạt động xúc tác của enzyme.",
+      "Thực hành: làm được thí nghiệm phân tích ảnh hưởng của một số yếu tố đến hoạt tính của enzyme; thí nghiệm kiểm tra hoạt tính thuỷ phân tinh bột của amylase."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Enzyme",
+     "ycd": [
+      "Trình bày được vai trò của enzyme trong quá trình trao đổi chất và chuyển hoá năng lượng. Nêu được khái niệm, cấu trúc và cơ chế tác động của enzyme."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Chuyên đề học tập 10.2: Công nghệ enzyme và ứng dụng",
+     "muc": "Cơ sở khoa học ứng dụng công nghệ enzyme",
+     "ycd": [
+      "Phân tích được cơ sở khoa học ứng dụng công nghệ enzyme."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    }
+   ],
+   "ghi_chu": "Khớp trực tiếp YCĐ “phân tích các yếu tố ảnh hưởng” và phần thực hành (nhiệt độ, pH). Thí nghiệm amylase–tinh bột trong cùng YCĐ thực hành chưa có trong bài."
+  },
+  "mitosis-step": {
+   "khop": [
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Chu kì tế bào và phân bào › Chu kì tế bào và nguyên phân",
+     "ycd": [
+      "Thực hành làm được tiêu bản nhiễm sắc thể để quan sát quá trình nguyên phân (hành tây, hành ta, đại mạch, cây tỏi, lay ơn, khoai môn,...)."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Chu kì tế bào và phân bào › Chu kì tế bào và nguyên phân",
+     "ycd": [
+      "Nêu được khái niệm chu kì tế bào. Dựa vào sơ đồ, trình bày được các giai đoạn và mối quan hệ giữa các giai đoạn trong chu kì tế bào.",
+      "Dựa vào cơ chế nhân đôi và phân li của nhiễm sắc thể để giải thích được quá trình nguyên phân là cơ chế sinh sản của tế bào."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    }
+   ],
+   "ghi_chu": "Bài là thực hành quan sát nguyên phân ở đầu rễ hành, đúng YCĐ thực hành. Bước đếm tế bào và tính thời gian mỗi kì là mở rộng định lượng, chương trình không yêu cầu."
+  },
+  "impulse-step": {
+   "khop": [
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Cảm ứng ở sinh vật › Cảm ứng ở động vật › Cơ chế cảm ứng ở động vật có hệ thần kinh › Tế bào thần kinh",
+     "ycd": [
+      "Dựa vào hình vẽ, nêu được cấu tạo và chức năng của tế bào thần kinh."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Cảm ứng ở sinh vật › Cảm ứng ở động vật › Cơ chế cảm ứng ở động vật có hệ thần kinh › Truyền tin qua synapse",
+     "ycd": [
+      "Dựa vào sơ đồ, mô tả được cấu tạo synapse và quá trình truyền tin qua synapse."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Cảm ứng ở sinh vật › Khái quát về cảm ứng ở sinh vật › Cơ chế của cảm ứng",
+     "ycd": [
+      "Trình bày được cơ chế cảm ứng ở sinh vật (thu nhận kích thích, dẫn truyền kích thích, phân tích và tổng hợp, trả lời kích thích)."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Cảm ứng ở sinh vật › Cảm ứng ở động vật › Cơ chế cảm ứng ở động vật có hệ thần kinh › Các bệnh liên quan hệ thần kinh",
+     "ycd": [
+      "Đề xuất được các biện pháp bảo vệ hệ thần kinh: không lạm dụng chất kích thích; phòng chống nghiện và cai nghiện các chất kích thích.",
+      "Vận dụng hiểu biết về hệ thần kinh để giải thích được cơ chế giảm đau khi uống và tiêm thuốc giảm đau."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Sự vận chuyển các chất qua màng sinh chất (+ Vận chuyển thụ động; + Vận chuyển chủ động; + Nhập, xuất bào)",
+     "ycd": [
+      "Phân biệt được các hình thức vận chuyển các chất qua màng sinh chất: vận chuyển thụ động, chủ động. Nêu được ý nghĩa của các hình thức đó. Lấy được ví dụ minh hoạ."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    }
+   ],
+   "ghi_chu": "Chương trình không có YCĐ riêng về điện thế nghỉ, điện thế hoạt động, dòng điện cục bộ; các nội dung này nằm trong SGK khi dạy “Tế bào thần kinh”, nên bài vượt mức chữ của chương trình. Bước cocaine nối với YCĐ về chất kích thích."
+  },
+  "plasmolysis-step": {
+   "khop": [
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Sự vận chuyển các chất qua màng sinh chất (+ Vận chuyển thụ động; + Vận chuyển chủ động; + Nhập, xuất bào)",
+     "ycd": [
+      "Làm được thí nghiệm và quan sát hiện tượng co và phản co nguyên sinh (tế bào hành, tế bào máu,...); thí nghiệm tính thấm có chọn lọc của màng sinh chất tế bào sống.",
+      "Vận dụng những hiểu biết về sự vận chuyển các chất qua màng sinh chất để giải thích một số hiện tượng thực tiễn (muối dưa, muối cà)."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Sự vận chuyển các chất qua màng sinh chất (+ Vận chuyển thụ động; + Vận chuyển chủ động; + Nhập, xuất bào)",
+     "ycd": [
+      "Phân biệt được các hình thức vận chuyển các chất qua màng sinh chất: vận chuyển thụ động, chủ động. Nêu được ý nghĩa của các hình thức đó. Lấy được ví dụ minh hoạ."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Cấu trúc tế bào › Tế bào nhân thực",
+     "ycd": [
+      "Phân tích được mối quan hệ phù hợp giữa cấu tạo và chức năng của thành tế bào (ở tế bào thực vật) và màng sinh chất."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Trao đổi chất và chuyển hoá năng lượng ở sinh vật › Trao đổi chất và chuyển hoá năng lượng ở thực vật › Trao đổi nước và khoáng ở thực vật › Sự hấp thụ nước và khoáng ở rễ",
+     "ycd": [
+      "Trình bày được cơ chế hấp thụ nước và khoáng ở tế bào lông hút của rễ."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    }
+   ],
+   "ghi_chu": "Khớp trực tiếp thí nghiệm co và phản co nguyên sinh, tính thấm chọn lọc (bước glycerol) và hiện tượng muối dưa, muối cà. Bước đo nồng độ là mở rộng định lượng."
+  },
+  "transport-step": {
+   "khop": [
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Sự vận chuyển các chất qua màng sinh chất (+ Vận chuyển thụ động; + Vận chuyển chủ động; + Nhập, xuất bào)",
+     "ycd": [
+      "Phân biệt được các hình thức vận chuyển các chất qua màng sinh chất: vận chuyển thụ động, chủ động. Nêu được ý nghĩa của các hình thức đó. Lấy được ví dụ minh hoạ.",
+      "Trình bày được hiện tượng nhập bào và xuất bào thông qua biến dạng của màng sinh chất. Lấy được ví dụ minh hoạ."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Sự vận chuyển các chất qua màng sinh chất (+ Vận chuyển thụ động; + Vận chuyển chủ động; + Nhập, xuất bào)",
+     "ycd": [
+      "Vận dụng những hiểu biết về sự vận chuyển các chất qua màng sinh chất để giải thích một số hiện tượng thực tiễn (muối dưa, muối cà).",
+      "Làm được thí nghiệm và quan sát hiện tượng co và phản co nguyên sinh (tế bào hành, tế bào máu,...); thí nghiệm tính thấm có chọn lọc của màng sinh chất tế bào sống."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Cấu trúc tế bào › Tế bào nhân thực",
+     "ycd": [
+      "Phân tích được mối quan hệ phù hợp giữa cấu tạo và chức năng của thành tế bào (ở tế bào thực vật) và màng sinh chất."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    }
+   ],
+   "ghi_chu": "Bao trọn phần lí thuyết vận chuyển thụ động, chủ động, nhập bào, xuất bào. Phân biệt khuếch tán đơn giản và khuếch tán tăng cường (protein mang, kênh) là chi tiết SGK, chương trình chỉ ghi “vận chuyển thụ động, chủ động”."
+  },
+  "te-bao": {
+   "khop": [
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Cấu trúc tế bào › Tế bào nhân thực",
+     "ycd": [
+      "Phân tích được mối quan hệ phù hợp giữa cấu tạo và chức năng của thành tế bào (ở tế bào thực vật) và màng sinh chất.",
+      "Nêu được cấu tạo và chức năng của tế bào chất.",
+      "Trình bày được cấu trúc của nhân tế bào và chức năng quan trọng của nhân.",
+      "Phân tích được mối quan hệ giữa cấu tạo và chức năng của các bào quan trong tế bào."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Sự vận chuyển các chất qua màng sinh chất (+ Vận chuyển thụ động; + Vận chuyển chủ động; + Nhập, xuất bào)",
+     "ycd": [
+      "Trình bày được hiện tượng nhập bào và xuất bào thông qua biến dạng của màng sinh chất. Lấy được ví dụ minh hoạ."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Thông tin ở tế bào › Quá trình",
+     "ycd": [
+      "Dựa vào sơ đồ thông tin giữa các tế bào, trình bày được các quá trình: + Tiếp nhận: Một phân tử truyền tin liên kết vào một protein thụ thể làm thụ thể thay đổi hình dạng; + Truyền tin: các chuỗi tương tác phân tử chuyển tiếp tín hiệu từ các thụ thể tới các phân tử đích trong tế bào; + Đáp ứng: Tế bào phát tín hiệu điều khiển phiên mã, dịch mã hoặc điều hoà hoạt động của tế bào."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Thông tin ở tế bào › Khái niệm",
+     "ycd": [
+      "Nêu được khái niệm về thông tin giữa các tế bào."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Cấu trúc tế bào › Tế bào nhân thực",
+     "ycd": [
+      "Quan sát hình vẽ, lập được bảng so sánh cấu tạo tế bào thực vật và động vật.",
+      "Làm được tiêu bản hiển vi tế bào nhân thực (củ hành tây, hành ta, thài lài tía, hoa lúa, bí ngô, tế bào niêm mạc xoang miệng,...) và quan sát nhân, một số bào quan trên tiêu bản đó."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Khái quát về tế bào",
+     "ycd": [
+      "Giải thích được tế bào là đơn vị cấu trúc và chức năng của cơ thể sống."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Các loại năng lượng",
+     "ycd": [
+      "Phân tích được cấu tạo và chức năng của ATP về giá trị năng lượng sinh học."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Tổng hợp các chất và tích luỹ năng lượng trong tế bào",
+     "ycd": [
+      "Nêu được khái niệm tổng hợp các chất trong tế bào. Lấy được ví dụ minh hoạ (tổng hợp protein, lipid, carbohydrate,...)."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 12,
+     "chu_de": "Di truyền học",
+     "muc": "Di truyền học › Di truyền phân tử › Gene và cơ chế truyền thông tin di truyền › Mã di truyền và dịch mã",
+     "ycd": [
+      "Trình bày được cơ chế tổng hợp protein từ bản sao là RNA có bản chất là quá trình dịch mã."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    }
+   ],
+   "ghi_chu": "Bao phủ tốt phần tế bào nhân thực (màng, tế bào chất, nhân, bào quan), nhập bào, xuất bào và truyền tin qua thụ thể. Chỉ có tế bào động vật nên YCĐ so sánh với tế bào thực vật mới đạt một nửa. Phần nguyên tử của ribosome, kênh Sec61, ảnh nhuộm TEM vượt chương trình phổ thông; dịch mã thuộc lớp 12."
+  },
+  "ty-the": {
+   "khop": [
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Khái niệm trao đổi chất và chuyển hoá năng lượng trong tế bào",
+     "ycd": [
+      "Trình bày được quá trình tổng hợp và phân giải ATP gắn liền với quá trình tích lũy, giải phóng năng lượng."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Cấu trúc tế bào › Tế bào nhân thực",
+     "ycd": [
+      "Phân tích được mối quan hệ giữa cấu tạo và chức năng của các bào quan trong tế bào."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Các loại năng lượng",
+     "ycd": [
+      "Phân biệt được các dạng năng lượng trong chuyển hoá năng lượng ở tế bào.",
+      "Giải thích được năng lượng được tích luỹ và sử dụng cho các hoạt động sống của tế bào là dạng hoá năng (năng lượng tiềm ẩn trong các liên kết hoá học).",
+      "Phân tích được cấu tạo và chức năng của ATP về giá trị năng lượng sinh học."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Phân giải các chất và giải phóng năng lượng trong tế bào",
+     "ycd": [
+      "Trình bày được các giai đoạn phân giải hiếu khí (hô hấp tế bào) và các giai đoạn phân giải kị khí (lên men).",
+      "Trình bày được quá trình phân giải các chất song song với giải phóng năng lượng."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Enzyme",
+     "ycd": [
+      "Trình bày được vai trò của enzyme trong quá trình trao đổi chất và chuyển hoá năng lượng. Nêu được khái niệm, cấu trúc và cơ chế tác động của enzyme."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Trao đổi chất và chuyển hoá năng lượng ở sinh vật › Khái quát trao đổi chất và chuyển hoá năng lượng trong sinh giới › Trao đổi chất và chuyển hoá năng lượng",
+     "ycd": [
+      "Dựa vào sơ đồ chuyển hoá năng lượng trong sinh giới, mô tả được tóm tắt ba giai đoạn chuyển hoá năng lượng (tổng hợp, phân giải và huy động năng lượng)."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Trao đổi chất và chuyển hoá năng lượng ở sinh vật › Trao đổi chất và chuyển hoá năng lượng ở động vật › Hô hấp và trao đổi khí ở động vật › Vai trò hô hấp",
+     "ycd": [
+      "Phân tích được vai trò của hô hấp ở động vật: trao đổi khí với môi trường và hô hấp tế bào."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Trao đổi chất và chuyển hoá năng lượng ở sinh vật › Trao đổi chất và chuyển hoá năng lượng ở thực vật › Hô hấp ở thực vật › Các giai đoạn hô hấp ở thực vật",
+     "ycd": [
+      "Trình bày được sơ đồ các giai đoạn của hô hấp ở thực vật."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    }
+   ],
+   "ghi_chu": "Neo vào YCĐ tổng hợp ATP và quan hệ cấu tạo–chức năng của ti thể. Cơ chế quay của ATP synthase, cơ chế thay đổi liên kết ở F1, tỉ lệ 8 H⁺/3 ATP và hàng dimer trên mào ti thể vượt chương trình; chương trình chỉ yêu cầu trình bày các giai đoạn hô hấp tế bào."
+  },
+  "chu-de": {
+   "khop": [
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Khái quát về tế bào",
+     "ycd": [
+      "Giải thích được tế bào là đơn vị cấu trúc và chức năng của cơ thể sống."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Cấu trúc tế bào › Tế bào nhân thực",
+     "ycd": [
+      "Phân tích được mối quan hệ phù hợp giữa cấu tạo và chức năng của thành tế bào (ở tế bào thực vật) và màng sinh chất.",
+      "Nêu được cấu tạo và chức năng của tế bào chất.",
+      "Trình bày được cấu trúc của nhân tế bào và chức năng quan trọng của nhân.",
+      "Phân tích được mối quan hệ giữa cấu tạo và chức năng của các bào quan trong tế bào."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Cấu trúc tế bào › Tế bào nhân thực",
+     "ycd": [
+      "Quan sát hình vẽ, lập được bảng so sánh cấu tạo tế bào thực vật và động vật.",
+      "Làm được tiêu bản hiển vi tế bào nhân thực (củ hành tây, hành ta, thài lài tía, hoa lúa, bí ngô, tế bào niêm mạc xoang miệng,...) và quan sát nhân, một số bào quan trên tiêu bản đó."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Sự vận chuyển các chất qua màng sinh chất (+ Vận chuyển thụ động; + Vận chuyển chủ động; + Nhập, xuất bào)",
+     "ycd": [
+      "Phân biệt được các hình thức vận chuyển các chất qua màng sinh chất: vận chuyển thụ động, chủ động. Nêu được ý nghĩa của các hình thức đó. Lấy được ví dụ minh hoạ.",
+      "Trình bày được hiện tượng nhập bào và xuất bào thông qua biến dạng của màng sinh chất. Lấy được ví dụ minh hoạ.",
+      "Vận dụng những hiểu biết về sự vận chuyển các chất qua màng sinh chất để giải thích một số hiện tượng thực tiễn (muối dưa, muối cà).",
+      "Làm được thí nghiệm và quan sát hiện tượng co và phản co nguyên sinh (tế bào hành, tế bào máu,...); thí nghiệm tính thấm có chọn lọc của màng sinh chất tế bào sống."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Các loại năng lượng",
+     "ycd": [
+      "Phân biệt được các dạng năng lượng trong chuyển hoá năng lượng ở tế bào.",
+      "Giải thích được năng lượng được tích luỹ và sử dụng cho các hoạt động sống của tế bào là dạng hoá năng (năng lượng tiềm ẩn trong các liên kết hoá học).",
+      "Phân tích được cấu tạo và chức năng của ATP về giá trị năng lượng sinh học."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Khái niệm trao đổi chất và chuyển hoá năng lượng trong tế bào",
+     "ycd": [
+      "Trình bày được quá trình tổng hợp và phân giải ATP gắn liền với quá trình tích lũy, giải phóng năng lượng."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Enzyme",
+     "ycd": [
+      "Phân tích được các yếu tố ảnh hưởng đến hoạt động xúc tác của enzyme.",
+      "Thực hành: làm được thí nghiệm phân tích ảnh hưởng của một số yếu tố đến hoạt tính của enzyme; thí nghiệm kiểm tra hoạt tính thuỷ phân tinh bột của amylase."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Enzyme",
+     "ycd": [
+      "Trình bày được vai trò của enzyme trong quá trình trao đổi chất và chuyển hoá năng lượng. Nêu được khái niệm, cấu trúc và cơ chế tác động của enzyme."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Trao đổi chất và chuyển hoá năng lượng ở tế bào › Phân giải các chất và giải phóng năng lượng trong tế bào",
+     "ycd": [
+      "Trình bày được các giai đoạn phân giải hiếu khí (hô hấp tế bào) và các giai đoạn phân giải kị khí (lên men).",
+      "Trình bày được quá trình phân giải các chất song song với giải phóng năng lượng."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Thông tin ở tế bào › Quá trình",
+     "ycd": [
+      "Dựa vào sơ đồ thông tin giữa các tế bào, trình bày được các quá trình: + Tiếp nhận: Một phân tử truyền tin liên kết vào một protein thụ thể làm thụ thể thay đổi hình dạng; + Truyền tin: các chuỗi tương tác phân tử chuyển tiếp tín hiệu từ các thụ thể tới các phân tử đích trong tế bào; + Đáp ứng: Tế bào phát tín hiệu điều khiển phiên mã, dịch mã hoặc điều hoà hoạt động của tế bào."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Thông tin ở tế bào › Khái niệm",
+     "ycd": [
+      "Nêu được khái niệm về thông tin giữa các tế bào."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Chu kì tế bào và phân bào › Chu kì tế bào và nguyên phân",
+     "ycd": [
+      "Thực hành làm được tiêu bản nhiễm sắc thể để quan sát quá trình nguyên phân (hành tây, hành ta, đại mạch, cây tỏi, lay ơn, khoai môn,...)."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 10,
+     "chu_de": "Sinh học tế bào",
+     "muc": "Chu kì tế bào và phân bào › Chu kì tế bào và nguyên phân",
+     "ycd": [
+      "Nêu được khái niệm chu kì tế bào. Dựa vào sơ đồ, trình bày được các giai đoạn và mối quan hệ giữa các giai đoạn trong chu kì tế bào.",
+      "Dựa vào cơ chế nhân đôi và phân li của nhiễm sắc thể để giải thích được quá trình nguyên phân là cơ chế sinh sản của tế bào."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Cảm ứng ở sinh vật › Cảm ứng ở động vật › Cơ chế cảm ứng ở động vật có hệ thần kinh › Tế bào thần kinh",
+     "ycd": [
+      "Dựa vào hình vẽ, nêu được cấu tạo và chức năng của tế bào thần kinh."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 11,
+     "chu_de": "Sinh học cơ thể",
+     "muc": "Sinh học cơ thể › Cảm ứng ở sinh vật › Cảm ứng ở động vật › Cơ chế cảm ứng ở động vật có hệ thần kinh › Truyền tin qua synapse",
+     "ycd": [
+      "Dựa vào sơ đồ, mô tả được cấu tạo synapse và quá trình truyền tin qua synapse."
+     ],
+     "muc_do": "chinh",
+     "mon": "Sinh học"
+    },
+    {
+     "lop": 12,
+     "chu_de": "Di truyền học",
+     "muc": "Di truyền học › Di truyền phân tử › Gene và cơ chế truyền thông tin di truyền › Mã di truyền và dịch mã",
+     "ycd": [
+      "Trình bày được cơ chế tổng hợp protein từ bản sao là RNA có bản chất là quá trình dịch mã."
+     ],
+     "muc_do": "lien_quan",
+     "mon": "Sinh học"
+    }
+   ],
+   "ghi_chu": "Cả đơn vị nằm chủ yếu ở Sinh học 10, mạch Sinh học tế bào, thêm tế bào thần kinh và synapse của Sinh học 11. Chưa phủ: khái quát học thuyết tế bào, thành phần hoá học của tế bào, tế bào nhân sơ, tổng hợp các chất (quang hợp, hoá tổng hợp), lên men, giảm phân, ung thư, công nghệ tế bào và hai chuyên đề 10.1, 10.2."
+  },
+  "blast-furnace-step": {
+   "khop": [
+    {
+     "mon": "Khoa học tự nhiên",
+     "lop": 9,
+     "chu_de": "Kim loại",
+     "muc": "Tách kim loại và việc sử dụng hợp kim",
+     "ycd": [
+      "Trình bày được các giai đoạn cơ bản sản xuất gang và thép trong lò cao từ nguồn quặng chứa iron (III) oxide.",
+      "Trình bày được quá trình tách một số kim loại có nhiều ứng dụng, như:",
+      "+ Tách sắt ra khỏi iron(III) oxide (sắt(III) oxit) bởi carbon oxide (oxit cacbon);"
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Hoá học",
+     "lop": 12,
+     "chu_de": "ĐẠI CƯƠNG VỀ KIM LOẠI",
+     "muc": "Quặng, mỏ kim loại trong tự nhiên và các phương pháp tách kim loại",
+     "ycd": [
+      "Trình bày và giải thích được phương pháp tách kim loại hoạt động mạnh như sodium, magnesium, nhôm (aluminium); Phương pháp tách kim loại hoạt động trung bình như kẽm (zinc), sắt (iron); Phương pháp tách kim loại kém hoạt động như đồng (copper).",
+      "Nêu được khái quát trạng thái tự nhiên của kim loại và một số quặng, mỏ kim loại phổ biến."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Hoá học",
+     "lop": 12,
+     "chu_de": "ĐẠI CƯƠNG VỀ KIM LOẠI",
+     "muc": "Hợp kim",
+     "ycd": [
+      "Nêu được thành phần, tính chất và ứng dụng một số hợp kim quan trọng của sắt và nhôm (gang, thép, dural,...)."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Khoa học tự nhiên",
+     "lop": 9,
+     "chu_de": "Khai thác tài nguyên từ vỏ Trái đất",
+     "muc": "Khai thác đá vôi",
+     "ycd": [
+      "Trình bày được nguồn đá vôi, thành phần chính của đá vôi trong tự nhiên; các ứng dụng từ đá vôi: sản phẩm đá vôi nghiền, calcium oxide, calcium hydroxide, nguyên liệu sản xuất xi măng."
+     ],
+     "muc_do": "lien_quan"
+    }
+   ],
+   "ghi_chu": "Lò cao được dạy đích danh ở KHTN 9 (định tính); Hoá học 12 chỉ nêu phương pháp tách kim loại hoạt động trung bình như sắt và hợp kim gang, thép. Vai trò đá vôi tạo xỉ, phân vùng nhiệt trong lò và bài toán nhiệt độ gió nóng là mở rộng."
+  },
+  "smelting-step": {
+   "khop": [
+    {
+     "mon": "Hoá học",
+     "lop": 12,
+     "chu_de": "PIN ĐIỆN VÀ ĐIỆN PHÂN",
+     "muc": "Điện phân",
+     "ycd": [
+      "Trình bày được giai đoạn điện phân aluminium oxide trong sản xuất nhôm (aluminium), tinh luyện đồng (copper) bằng phương pháp điện phân, mạ điện.",
+      "Trình bày được nguyên tắc (thứ tự) điện phân dung dịch, điện phân nóng chảy."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Hoá học",
+     "lop": 12,
+     "chu_de": "ĐẠI CƯƠNG VỀ KIM LOẠI",
+     "muc": "Quặng, mỏ kim loại trong tự nhiên và các phương pháp tách kim loại",
+     "ycd": [
+      "Trình bày và giải thích được phương pháp tách kim loại hoạt động mạnh như sodium, magnesium, nhôm (aluminium); Phương pháp tách kim loại hoạt động trung bình như kẽm (zinc), sắt (iron); Phương pháp tách kim loại kém hoạt động như đồng (copper)."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Khoa học tự nhiên",
+     "lop": 9,
+     "chu_de": "Kim loại",
+     "muc": "Tách kim loại và việc sử dụng hợp kim",
+     "ycd": [
+      "Nêu được phương pháp tách kim loại theo mức độ hoạt động hoá học của chúng.",
+      "Trình bày được quá trình tách một số kim loại có nhiều ứng dụng, như:",
+      "+ Tách nhôm ra khỏi aluminium oxide (nhôm oxit) bởi phản ứng điện phân;"
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Khoa học tự nhiên",
+     "lop": 9,
+     "chu_de": "Kim loại",
+     "muc": "Dãy hoạt động hoá học",
+     "ycd": [
+      "Nêu được dãy hoạt động hoá học (K, Na, Ca, Mg, Al, Zn, Fe, Pb, H, Cu, Ag, Au).",
+      "Trình bày được ý nghĩa của dãy hoạt động hoá học."
+     ],
+     "muc_do": "lien_quan"
+    }
+   ],
+   "ghi_chu": "Điện phân nóng chảy Al2O3 có trong Hoá học 12 và KHTN 9; vai trò cryolite không được nêu đích danh. Phản ứng nhiệt nhôm không có YCCĐ riêng, chỉ liên hệ qua dãy hoạt động hoá học và phương pháp tách kim loại. Bài toán điện năng là mở rộng."
+  },
+  "cement-step": {
+   "khop": [
+    {
+     "mon": "Khoa học tự nhiên",
+     "lop": 9,
+     "chu_de": "Khai thác tài nguyên từ vỏ Trái đất",
+     "muc": "Công nghiệp silicate",
+     "ycd": [
+      "Mô tả được các công đoạn chính sản xuất đồ gốm, thuỷ tinh, xi măng.",
+      "Trình bày được sơ lược ngành công nghiệp silicate."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Khoa học tự nhiên",
+     "lop": 9,
+     "chu_de": "Khai thác tài nguyên từ vỏ Trái đất",
+     "muc": "Khai thác đá vôi",
+     "ycd": [
+      "Trình bày được nguồn đá vôi, thành phần chính của đá vôi trong tự nhiên; các ứng dụng từ đá vôi: sản phẩm đá vôi nghiền, calcium oxide, calcium hydroxide, nguyên liệu sản xuất xi măng."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Hoá học",
+     "lop": 12,
+     "chu_de": "Chuyên đề 12.2: TRẢI NGHIỆM, THỰC HÀNH HOÁ HỌC VÔ CƠ",
+     "muc": "Tìm hiểu công nghiệp silicate",
+     "ycd": [
+      "Nêu được thành phần hoá học và tính chất cơ bản của thuỷ tinh, đồ gốm, xi măng.",
+      "Trình bày được phương pháp sản xuất các loại vật liệu trên từ nguồn nguyên liệu có trong tự nhiên nói chung và trong tự nhiên Việt Nam nói riêng."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Hoá học",
+     "lop": 12,
+     "chu_de": "NGUYÊN TỐ NHÓM IA VÀ NHÓM IIA",
+     "muc": "Nguyên tố nhóm IIA › Tính chất cơ bản của một số loại hợp chất nhóm IIA",
+     "ycd": [
+      "Viết được phương trình hoá học sự phân huỷ nhiệt của muối carbonate và muối nitrate."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Hoá học",
+     "lop": 12,
+     "chu_de": "NGUYÊN TỐ NHÓM IA VÀ NHÓM IIA",
+     "muc": "Nguyên tố nhóm IIA › Một số ứng dụng",
+     "ycd": [
+      "Tìm hiểu và trình bày được ứng dụng của kim loại dạng nguyên chất, hợp kim; ứng dụng của đá vôi, vôi, nước vôi, thạch cao, khoáng vật apatite,... dựa trên một số tính chất hoá học và vật lí của chúng; vai trò một số hợp chất của calcium trong cơ thể con người."
+     ],
+     "muc_do": "lien_quan"
+    }
+   ],
+   "ghi_chu": "Sản xuất xi măng có ở KHTN 9 (bắt buộc) và Chuyên đề học tập 12.2 (tự chọn). Thành phần khoáng clinker, vùng nung kết và làm nguội nhanh là mở rộng."
+  },
+  "soil-step": {
+   "khop": [
+    {
+     "mon": "Địa lí",
+     "lop": 10,
+     "chu_de": "Sinh quyển",
+     "muc": "Đất",
+     "ycd": [
+      "Trình bày được các nhân tố hình thành đất; liên hệ được thực tế ở địa phương."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Địa lí",
+     "lop": 10,
+     "chu_de": "Sinh quyển",
+     "muc": "Đất",
+     "ycd": [
+      "Trình bày được khái niệm về đất; phân biệt được lớp vỏ phong hoá và đất."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Địa lí",
+     "lop": 10,
+     "chu_de": "Sinh quyển",
+     "muc": "Sự phân bố của đất và sinh vật trên Trái Đất",
+     "ycd": [
+      "Phân tích được sơ đồ, hình vẽ, bản đồ phân bố các nhóm đất và sinh vật trên thế giới."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 6,
+     "chu_de": "ĐẤT VÀ SINH VẬT TRÊN TRÁI ĐẤT",
+     "muc": "Lớp đất trên Trái Đất. Thành phần của đất",
+     "ycd": [
+      "Nêu được các tầng đất và các thành phần chính của đất."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 6,
+     "chu_de": "ĐẤT VÀ SINH VẬT TRÊN TRÁI ĐẤT",
+     "muc": "Các nhân tố hình thành đất",
+     "ycd": [
+      "Trình bày được một số nhân tố hình thành đất."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 6,
+     "chu_de": "ĐẤT VÀ SINH VẬT TRÊN TRÁI ĐẤT",
+     "muc": "Một số nhóm đất điển hình ở các đới thiên nhiên trên Trái Đất",
+     "ycd": [
+      "Kể được tên và xác định được trên bản đồ một số nhóm đất điển hình ở vùng nhiệt đới hoặc ở vùng ôn đới."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 8,
+     "chu_de": "ĐẶC ĐIỂM THỔ NHƯỠNG VÀ SINH VẬT VIỆT NAM",
+     "muc": "Đặc điểm chung của lớp phủ thổ nhưỡng",
+     "ycd": [
+      "Chứng minh được tính chất nhiệt đới gió mùa của lớp phủ thổ nhưỡng."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 8,
+     "chu_de": "ĐẶC ĐIỂM THỔ NHƯỠNG VÀ SINH VẬT VIỆT NAM",
+     "muc": "Vấn đề sử dụng hợp lí tài nguyên đất ở Việt Nam",
+     "ycd": [
+      "Phân tích được đặc điểm của đất feralit và giá trị sử dụng đất feralit trong sản xuất nông, lâm nghiệp."
+     ],
+     "muc_do": "lien_quan"
+    }
+   ],
+   "ghi_chu": "Khớp trực tiếp cả lớp 10 (nhân tố hình thành đất) và lớp 6 (tầng đất = phẫu diện, nhân tố hình thành đất). Ví dụ đất đen Đông Bắc – đất đỏ phương nam nên thay hoặc bổ sung bằng đất feralit và đất phù sa Việt Nam (lớp 8)."
+  },
+  "earth-motion-step": {
+   "khop": [
+    {
+     "mon": "Địa lí",
+     "lop": 10,
+     "chu_de": "Trái Đất",
+     "muc": "Hệ quả địa lí các chuyển động của Trái Đất",
+     "ycd": [
+      "Phân tích được hệ quả địa lí của các chuyển động chính của Trái Đất: Chuyển động tự quay (sự luân phiên ngày đêm, giờ trên Trái Đất); chuyển động quanh Mặt Trời (các mùa trong năm, ngày đêm dài ngắn theo vĩ độ).",
+      "Liên hệ được thực tế địa phương về các mùa trong năm và chênh lệch thời gian ngày đêm.",
+      "Sử dụng hình vẽ, lược đồ để phân tích được các hệ quả chuyển động của Trái Đất."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 6,
+     "chu_de": "TRÁI ĐẤT – HÀNH TINH CỦA HỆ MẶT TRỜI",
+     "muc": "Chuyển động của Trái Đất và hệ quả địa lí",
+     "ycd": [
+      "Mô tả được chuyển động của Trái Đất (quanh trục và quanh Mặt Trời).",
+      "Nhận biết được giờ địa phương/giờ khu vực, so sánh được giờ của hai địa điểm trên Trái Đất.",
+      "Trình bày được hiện tượng ngày đêm luân phiên nhau và mô tả được sự lệch hướng chuyển động của vật thể theo chiều kinh tuyến.",
+      "Trình bày được hiện tượng ngày đêm dài ngắn theo mùa."
+     ],
+     "muc_do": "chinh"
+    }
+   ],
+   "ghi_chu": "Khớp rất tốt cả lớp 6 và lớp 10. Đường chuyển ngày quốc tế và tính độ cao Mặt Trời chính trưa không ghi tường minh trong YCCĐ (mở rộng). Có thể đổi ví dụ Bắc Kinh – New York thành Hà Nội/TP.HCM – một thành phố khác."
+  },
+  "water-cycle-step": {
+   "khop": [
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 6,
+     "chu_de": "NƯỚC TRÊN TRÁI ĐẤT",
+     "muc": "Vòng tuần hoàn nước",
+     "ycd": [
+      "Mô tả được vòng tuần hoàn lớn của nước."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 6,
+     "chu_de": "NƯỚC TRÊN TRÁI ĐẤT",
+     "muc": "Các thành phần chủ yếu của thuỷ quyển",
+     "ycd": [
+      "Kể được tên được các thành phần chủ yếu của thuỷ quyển."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Địa lí",
+     "lop": 10,
+     "chu_de": "Thuỷ quyển",
+     "muc": "Khái niệm thuỷ quyển",
+     "ycd": [
+      "Nêu được khái niệm thuỷ quyển."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Địa lí",
+     "lop": 10,
+     "chu_de": "Thuỷ quyển",
+     "muc": "Nước trên lục địa",
+     "ycd": [
+      "Phân tích được các nhân tố ảnh hưởng tới chế độ nước sông.",
+      "Trình bày được đặc điểm chủ yếu của nước băng tuyết và nước ngầm.",
+      "Nêu được các giải pháp bảo vệ nguồn nước ngọt."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Địa lí",
+     "lop": 10,
+     "chu_de": "Thuỷ quyển",
+     "muc": "Nước biển và đại dương",
+     "ycd": [
+      "Vẽ được sơ đồ; phân tích được bản đồ và hình vẽ về thuỷ quyển."
+     ],
+     "muc_do": "lien_quan"
+    }
+   ],
+   "ghi_chu": "Vòng tuần hoàn nước chỉ được ghi tường minh ở lớp 6 (vòng tuần hoàn lớn). Ở lớp 10 không có YCCĐ riêng về vòng tuần hoàn nước, ba loại tuần hoàn hay ý nghĩa địa lí của chúng; bài sâu hơn chương trình lớp 10. Ví dụ ruộng phủ sỏi (Cam Túc) nên kèm ví dụ Việt Nam."
+  },
+  "circulation-step": {
+   "khop": [
+    {
+     "mon": "Địa lí",
+     "lop": 10,
+     "chu_de": "Khí quyển",
+     "muc": "Khí áp và gió",
+     "ycd": [
+      "Trình bày được sự hình thành các đai khí áp trên Trái Đất, nguyên nhân của sự thay đổi khí áp.",
+      "Trình bày được một số loại gió chính trên Trái Đất; một số loại gió địa phương."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Địa lí",
+     "lop": 10,
+     "chu_de": "Khí quyển",
+     "muc": "Mưa",
+     "ycd": [
+      "Phân tích được các nhân tố ảnh hưởng đến lượng mưa và trình bày được sự phân bố mưa trên thế giới."
+     ],
+     "muc_do": "lien_quan"
+    },
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 6,
+     "chu_de": "KHÍ HẬU VÀ BIẾN ĐỔI KHÍ HẬU",
+     "muc": "Các khối khí. Khí áp và gió",
+     "ycd": [
+      "Trình bày được sự phân bố các đai khí áp và các loại gió thổi thường xuyên trên Trái Đất."
+     ],
+     "muc_do": "chinh"
+    },
+    {
+     "mon": "Lịch sử và Địa lí",
+     "lop": 7,
+     "chu_de": "CHỦ ĐỀ CHUNG · CÁC CUỘC ĐẠI PHÁT KIẾN ĐỊA LÍ",
+     "muc": "Một số cuộc đại phát kiến địa lí",
+     "ycd": [
+      "Mô tả được các cuộc đại phát kiến địa lí: Christopher Colombus tìm ra châu Mỹ (1492 – 1502), cuộc thám hiểm của Ferdinand Magellan vòng quanh Trái Đất (1519 – 1522)."
+     ],
+     "muc_do": "lien_quan"
+    }
+   ],
+   "ghi_chu": "Khớp trực tiếp đai khí áp và gió thổi thường xuyên (lớp 6, lớp 10). Mô hình hoàn lưu ba vòng, sự dịch chuyển theo mùa của các đai và ảnh hưởng phân bố biển – lục địa (gió mùa) chỉ ngầm trong 'nguyên nhân thay đổi khí áp' và 'một số loại gió chính'; phần mô hình là mở rộng. Câu chuyện Magellan nối được với chủ đề chung lớp 7."
+  }
+ }
+}
