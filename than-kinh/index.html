@@ -24,15 +24,15 @@ html[data-chieu]{--bg-ink:#000000;--bg-ink2:#141414;--bg-ink3:#262626;--bg-glass
 
 <meta charset="utf-8">
 <!--BG-SHARE:start-->
-<meta property="og:type" content="website"><meta property="og:site_name" content="Sáng Ăn Khoai"><meta property="og:locale" content="vi_VN">
-<meta property="og:title" content="Neuron và xung thần kinh · Sáng Ăn Khoai"><meta property="og:description" content="Bài 3D Sinh học 11: neuron, điện thế màng, dẫn truyền nhảy cóc qua eo Ranvier và synapse hoá học, phong cách điện ảnh.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Bài giảng 3D"><meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Neuron và xung thần kinh · Bài giảng 3D"><meta property="og:description" content="Bài 3D Sinh học 11: neuron, điện thế màng, dẫn truyền nhảy cóc qua eo Ranvier và synapse hoá học, phong cách điện ảnh.">
 <meta property="og:url" content="https://nclamvn.github.io/bai-giang/than-kinh/"><link rel="canonical" href="https://nclamvn.github.io/bai-giang/than-kinh/">
 <meta property="og:image" content="https://nclamvn.github.io/bai-giang/design/the/than-kinh.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Neuron và xung thần kinh">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nclamvn.github.io/bai-giang/design/the/than-kinh.jpg">
 <!--BG-SHARE:end-->
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#050816">
-<title>Neuron và xung thần kinh · Sáng Ăn Khoai</title>
+<title>Neuron và xung thần kinh · Bài giảng 3D</title>
 <meta name="description" content="Bài 3D Sinh học 11: neuron, điện thế màng, dẫn truyền nhảy cóc qua eo Ranvier và synapse hoá học, phong cách điện ảnh.">
 <style>
 /* Neuron và xung thần kinh · phong cách điện ảnh (tools/than-kinh.template.html → tools/build_than_kinh.py) */
@@ -105,7 +105,7 @@ body.film #play,body.film .bgs{display:none!important}
 @media (max-width:560px){#vm{display:none}#shot{bottom:calc(76px + env(safe-area-inset-bottom))}#title{padding:8px 12px}#title .brand{display:none}body.bgs-on #tag{left:18px;transform:none;top:calc(var(--bg-bar,56px) + 82px);max-width:calc(100vw - 36px);font-size:13px;line-height:1.4;letter-spacing:0;border-radius:12px;box-sizing:border-box}#play{left:18px;transform:none;top:calc(var(--bg-bar,56px) + 138px)}}
 @media (prefers-reduced-motion:reduce){#fade{transition:none}}
 </style>
-<!--BG-STD:start--><style id="bg-std">/* chuẩn thành phần Sáng Ăn Khoai: sinh bằng tools/design.py, không sửa tay */
+<!--BG-STD:start--><style id="bg-std">/* chuẩn thành phần Bài giảng 3D: sinh bằng tools/design.py, không sửa tay */
 body.bgs-on :is(button,.btn,select){font-family:var(--bg-font)}
 body.bgs-on .btn{font-weight:600;letter-spacing:0;text-transform:none}
 body.bgs-on :is(.btn.primary,.btn.pri,.btn.gold,.btn.cta){background:var(--bg-brand)!important;background-image:none!important;border-color:var(--bg-brand)!important;color:var(--bg-brand-ink)!important;box-shadow:0 6px 16px -10px rgba(30,42,68,.65)!important;text-shadow:none!important}
@@ -469,7 +469,7 @@ $('bkC').addEventListener('change', (e) => { BK.cmp = e.target.checked; bkRun();
 $('bkL').addEventListener('change', (e) => { BK.lido = e.target.checked; bkRun(); });
 bkSay();
 addEventListener('keydown', (e) => { if (e.code === 'Space' && !e.target.closest('input,textarea,button')) { e.preventDefault(); $('bPlay').click(); } });
-/* ---------- vỏ bài Sáng Ăn Khoai: mỗi cảnh là một bước ---------- */
+/* ---------- vỏ bài Bài giảng 3D: mỗi cảnh là một bước ---------- */
 if (!FILM) (function mount(n) {
   if (!window.BGShell) return n < 100 && setTimeout(() => mount(n + 1), 100);
   BGShell.mount({ id: 'than-kinh', title: 'Neuron và xung thần kinh', subject: 'Sinh học 11', nav: true,
@@ -478,7 +478,7 @@ if (!FILM) (function mount(n) {
     steps: SHOTS.map((s) => ({ t: s.h, note: s.p + '\n' + s.s, ask: s.ask })),
     go: (i) => { t = SHOTS[i].a + 0.3; stopAt = SHOTS[i].b; playing = true; $('bPlay').textContent = 'Tạm dừng'; showAsk(i); },
     end: () => { $('ask').hidden = true; },
-    credit: 'Bài của Sáng Ăn Khoai, phong cách điện ảnh. Neuron dựng hoàn toàn bằng mã; màu và tỉ lệ là minh hoạ. Số liệu: OpenStax, Anatomy and Physiology 2e (CC BY 4.0); Azevedo và cs., 2009.' });
+    credit: 'Bài của Bài giảng 3D, phong cách điện ảnh. Neuron dựng hoàn toàn bằng mã; màu và tỉ lệ là minh hoạ. Số liệu: OpenStax, Anatomy and Physiology 2e (CC BY 4.0); Azevedo và cs., 2009.' });
 })(0);
 </script>
 </body>

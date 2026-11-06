@@ -1,4 +1,4 @@
-/* Vỏ Sáng Ăn Khoai (bg-shell) v2 · một tệp, không phụ thuộc, nhúng vào mọi bài 3D.
+/* Vỏ Bài giảng 3D (bg-shell) v2 · một tệp, không phụ thuộc, nhúng vào mọi bài 3D.
  * Cho mọi bài cùng một khung:
  *   - Thanh đầu bài: về trang chính · chủ đề / tên bài · tiến độ bước · bảng của bài · Lên lớp · Bài sau · menu.
  *   - Ngăn kéo: bảng của bài trượt ra/vào từ thanh đầu bài (cảnh 3D là màn hình, bảng là chú thích).
@@ -218,7 +218,7 @@
     const pbtn = S.panels.map((p, k) => `<button class="bgs-b lb bgs-pb${p.desktop ? ' bgs-desk' : ''}" data-k="pnl" data-n="${k}" aria-pressed="false" aria-label="${esc(p.label)}" title="${esc(p.label)}">${ico(p.icon || 'list')}<span class="l">${esc(p.label)}</span></button>`).join('');
     const hasSteps = L.steps && L.steps.length;
     bar = mk('bgs-bar bgs-glass', `
-      <a class="bgs-home" href="${esc(L.home || root())}" aria-label="Về trang chính Sáng Ăn Khoai" title="Trang chính Sáng Ăn Khoai">${LOGO}<b>Sáng Ăn Khoai</b></a>
+      <a class="bgs-home" href="${esc(L.home || root())}" aria-label="Về trang chính Bài giảng 3D" title="Trang chính Bài giảng 3D">${LOGO}<b>Bài giảng 3D</b></a>
       <span class="bgs-sep" aria-hidden="true"></span>
       <div class="bgs-crumb">${crumb ? `<span class="s">${crumb}</span>` : ''}<h1>${esc(L.title)}</h1></div>
       <div class="bgs-tools">
@@ -405,7 +405,7 @@
     openModal(`<h3>${esc(L.title)}</h3>${L.subject ? `<p class="bgs-small">${esc(L.subject)}</p>` : ''}
       ${L.objectives && L.objectives.length ? `<p><b>Yêu cầu cần đạt</b></p><ul style="margin:4px 0 0;padding-left:20px;color:var(--bg-ink2);line-height:1.6">${L.objectives.map((o) => `<li>${esc(o)}</li>`).join('')}</ul>` : ''}
       ${L.credit ? `<p>${L.credit}</p>` : ''}
-      <p class="bgs-small">Sáng Ăn Khoai: bài học 3D tiếng Việt, dùng tự do cho trường học, phi thương mại. <a href="${esc(root())}">Trang chính</a></p>`);
+      <p class="bgs-small">Bài giảng 3D: bài học 3D tiếng Việt, dùng tự do cho trường học, phi thương mại. <a href="${esc(root())}">Trang chính</a></p>`);
   }
   function openWindow() {
     const w = window.open('', 'bgs-teacher-' + (S.L.id || 'bai'), 'width=760,height=820');
@@ -522,7 +522,7 @@
     doc.head.appendChild(st);
     const b = doc.body; b.className = kind || 'phone'; doc.documentElement.dataset.bgVariant = variant || 'pho-thong';
     const I = (n) => `<svg class="bgs-i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[n]}</svg>`;
-    b.innerHTML = `<header>${LOGO.replace('bgs-logo', 'lg')}<div class="tt"><div class="s" id="sub">${kind === 'window' ? 'Màn hình giáo viên' : 'Điều khiển · Sáng Ăn Khoai'}</div><h1 id="ttl">Đang nối…</h1></div><span class="clock" id="clk" aria-label="Thời gian tiết học">00:00</span></header>
+    b.innerHTML = `<header>${LOGO.replace('bgs-logo', 'lg')}<div class="tt"><div class="s" id="sub">${kind === 'window' ? 'Màn hình giáo viên' : 'Điều khiển · Bài giảng 3D'}</div><h1 id="ttl">Đang nối…</h1></div><span class="clock" id="clk" aria-label="Thời gian tiết học">00:00</span></header>
       <div class="conn" id="conn" role="status"></div>
       <main id="main"><div class="empty">Đang chờ bài giảng…</div></main>
       <aside class="list" id="list" aria-label="Danh sách bước"></aside>
@@ -671,7 +671,7 @@
 
   /* ---------- trang điều khiển trên điện thoại ---------- */
   async function phonePage(rootUrl) {
-    document.title = 'Điều khiển · Sáng Ăn Khoai';
+    document.title = 'Điều khiển · Bài giảng 3D';
     const R = rootUrl || '../';
     const st = document.createElement('style');
     st.textContent = FONTFACE(R) + TOKENS_CSS + `*,*::before,*::after{box-sizing:border-box}body{margin:0;font:500 var(--bg-fs-sm)/1.5 var(--bg-font);color:var(--bg-ink);background:var(--bg-page);-webkit-font-smoothing:antialiased}
@@ -686,7 +686,7 @@
     document.head.appendChild(st);
     const code0 = decodeURIComponent(location.hash.slice(1)).trim().toUpperCase();
     const askCode = () => new Promise((ok) => {
-      document.body.innerHTML = `<div class="w"><a class="h" href="${R}" style="text-decoration:none;color:inherit">${LOGO}<b>Sáng Ăn Khoai</b></a><h2>Điều khiển bài giảng</h2><p>Nhập mã 6 ký tự hiện trên màn chiếu.</p>
+      document.body.innerHTML = `<div class="w"><a class="h" href="${R}" style="text-decoration:none;color:inherit">${LOGO}<b>Bài giảng 3D</b></a><h2>Điều khiển bài giảng</h2><p>Nhập mã 6 ký tự hiện trên màn chiếu.</p>
         <form id="f"><input id="c" maxlength="6" inputmode="text" autocapitalize="characters" autocomplete="off" aria-label="Mã kết nối" placeholder="······"><button id="g" disabled>Kết nối</button></form>
         <div class="f">Hai máy nối trực tiếp, không lưu gì trên máy chủ. Cần mạng Internet.</div></div>`;
       const c = document.getElementById('c'), g = document.getElementById('g');

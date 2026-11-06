@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
-"""Dựng bài "Cơ thể người 3D" từ mã nguồn BodyVista (FreedomIntelligence, MIT) cho Sáng Ăn Khoai.
+"""Dựng bài "Cơ thể người 3D" từ mã nguồn BodyVista (FreedomIntelligence, MIT) cho Bài giảng 3D.
 
   python3 tools/co-the-nguoi/build.py
 
 Nguồn gốc giữ nguyên trong tools/co-the-nguoi/upstream/ (commit ghi ở UPSTREAM_COMMIT). Mỗi lần dựng:
-  1. chép upstream vào thư mục tạm, áp các thay đổi của Sáng Ăn Khoai (hàm patch_* bên dưới, ghi rõ từng chỗ);
+  1. chép upstream vào thư mục tạm, áp các thay đổi của Bài giảng 3D (hàm patch_* bên dưới, ghi rõ từng chỗ);
   2. đóng gói bằng esbuild của dự án (không chạy cấu hình Vite của upstream);
   3. ghi co-the-nguoi/index.html, co-the-nguoi/app/, co-the-nguoi/dental/index.html, co-the-nguoi/dental/app/;
-  4. nhúng vỏ Sáng Ăn Khoai (tools/inject_shell.py).
+  4. nhúng vỏ Bài giảng 3D (tools/inject_shell.py).
 Mô hình đã nén sẵn nằm trong co-the-nguoi/assets/ (tools/co-the-nguoi/models.mjs), không dựng lại ở đây.
 
 Thay đổi so với upstream:
   - tiếng Việt là ngôn ngữ mặc định (từ điển vi.json, 4.332 mục, khoá là câu gốc tiếng Trung), vẫn đổi được sang 中文/English/日本語;
   - nạp mô hình nén EXT_meshopt_compression + KHR_mesh_quantization (nhỏ hơn khoảng 3,4 lần), trả toạ độ về float sau khi nạp;
-  - lớp giao diện nhà Sáng Ăn Khoai (house.css), thanh đầu bài chung, bài học từng bước cho giáo viên (lesson.js).
+  - lớp giao diện nhà Bài giảng 3D (house.css), thanh đầu bài chung, bài học từng bước cho giáo viên (lesson.js).
 """
 import json, pathlib, re, shutil, subprocess, sys, tempfile
 HERE = pathlib.Path(__file__).resolve().parent
@@ -33,7 +33,7 @@ def sub1(s, old, new, name):
 
 def patch_i18n(s):
     s = sub1(s, "import anatomy from './locales/anatomy.json' with { type: 'json' };",
-             "import anatomy from './locales/anatomy.json' with { type: 'json' };\nimport VI from './locales/vi.json' with { type: 'json' }; // Sáng Ăn Khoai: tiếng Việt", 'i18n import')
+             "import anatomy from './locales/anatomy.json' with { type: 'json' };\nimport VI from './locales/vi.json' with { type: 'json' }; // Bài giảng 3D: tiếng Việt", 'i18n import')
     s = sub1(s, "export const languages = ['zh-CN', 'en', 'ja'];", "export const languages = ['vi', 'zh-CN', 'en', 'ja'];", 'i18n languages')
     s = sub1(s, "let language = 'zh-CN';", "let language = 'vi';", 'i18n default')
     s = sub1(s, "  return locale === 'zh-CN' ? part.name : anatomy[part.name]?.[locale === 'en' ? 0 : 1] || t('名称未设置');",
@@ -66,7 +66,7 @@ def patch_i18n(s):
 
 def patch_dictionary(s):
     s = sub1(s, "import extra from './extra.json' with { type: 'json' };",
-             "import extra from './extra.json' with { type: 'json' };\nimport VI from './vi.json' with { type: 'json' }; // Sáng Ăn Khoai: ô thứ ba là tiếng Việt", 'dict import')
+             "import extra from './extra.json' with { type: 'json' };\nimport VI from './vi.json' with { type: 'json' }; // Bài giảng 3D: ô thứ ba là tiếng Việt", 'dict import')
     s = sub1(s, "  const key = text.trim();\n  if (dictionary[key]) return dictionary[key][slot];",
              "  const key = text.trim();\n  if (slot === 2) {\n    if (VI[key]) return VI[key];\n    const parts = key.match(/[^。！？]+[。！？]?/g);\n"
              "    if (parts?.length > 1 && parts.every(p => VI[p.trim()])) return parts.map(p => VI[p.trim()]).join(' ');\n    return;\n  }\n"
@@ -75,7 +75,7 @@ def patch_dictionary(s):
 
 
 BAKE = r"""
-// Sáng Ăn Khoai: mô hình nén meshopt + lượng tử hoá. Sau khi nạp, đưa toạ độ về float và gộp phép biến đổi của nút vào hình học,
+// Bài giảng 3D: mô hình nén meshopt + lượng tử hoá. Sau khi nạp, đưa toạ độ về float và gộp phép biến đổi của nút vào hình học,
 // để hộp bao, mặt cắt và mô hình chi tiết dùng đúng hệ toạ độ gốc của BodyVista.
 function bakeQuantized(root){
  root.updateMatrixWorld(true);
@@ -109,7 +109,7 @@ def patch_chatgpt(s):
 def patch_index(s):
     s = sub1(s, '<html lang="zh-CN">', '<html lang="vi">', 'index lang')
     s = re.sub(r'<link rel="icon"[^>]*>|<link rel="apple-touch-icon"[^>]*>', '', s)
-    s = re.sub(r'<title>[^<]*</title>', '<title>Cơ thể người 3D · Sáng Ăn Khoai</title><meta name="description" content="Bài học 3D về cơ thể người bằng tiếng Việt: 2.900 cấu trúc giải phẫu, 140 chuyển động sinh lí, 6 chủ đề hiển vi và thử thách giải phẫu, theo chương trình Khoa học tự nhiên 8."><link rel="stylesheet" href="./app/main.css"><link rel="stylesheet" href="./app/house.css">', s, count=1)
+    s = re.sub(r'<title>[^<]*</title>', '<title>Cơ thể người 3D · Bài giảng 3D</title><meta name="description" content="Bài học 3D về cơ thể người bằng tiếng Việt: 2.900 cấu trúc giải phẫu, 140 chuyển động sinh lí, 6 chủ đề hiển vi và thử thách giải phẫu, theo chương trình Khoa học tự nhiên 8."><link rel="stylesheet" href="./app/main.css"><link rel="stylesheet" href="./app/house.css">', s, count=1)
     s = sub1(s, '<select id="language" aria-label="语言">', '<select id="language" aria-label="语言"><option value="vi">Tiếng Việt</option>', 'index language')
     # bỏ ảnh đếm lượt truy cập của bên thứ ba (trường học: không gửi lượt xem ra máy chủ ngoài); giữ dòng bản quyền, thêm nguồn mô hình
     # trợ năng (axe): nút chế độ dùng aria-selected nên cần vai trò tab; khung cảnh 3D có nhãn nên cần vai trò
@@ -170,7 +170,7 @@ def build():
     run([str(HERE / 'lesson.js'), f'--outfile={OUT}/app/lesson.js', *common])
     run(['dental/main.ts', f'--outfile={OUT}/dental/app/main.js', *common])
     shutil.copy(HERE / 'house.css', OUT / 'app/house.css')
-    # chuẩn chữ của Sáng Ăn Khoai: không chữ nào dưới 13 px (điện thoại 14 px, qua --bg-fs-min)
+    # chuẩn chữ của Bài giảng 3D: không chữ nào dưới 13 px (điện thoại 14 px, qua --bg-fs-min)
     import minfont
     for css in (OUT / 'app/main.css', OUT / 'dental/app/main.css'):
         css.write_text(minfont.fix(css.read_text(encoding='utf-8'))[0], encoding='utf-8')

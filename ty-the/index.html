@@ -24,7 +24,7 @@ html[data-chieu]{--bg-ink:#000000;--bg-ink2:#141414;--bg-ink3:#262626;--bg-glass
 
 <meta charset="utf-8">
 <!--BG-SHARE:start-->
-<meta property="og:type" content="website"><meta property="og:site_name" content="Sáng Ăn Khoai"><meta property="og:locale" content="vi_VN">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Bài giảng 3D"><meta property="og:locale" content="vi_VN">
 <meta property="og:title" content="Vào Ty Thể"><meta property="og:description" content="Phóng từ một ty thể xuống từng nguyên tử của ATP synthase thật (PDB 6J5I): dòng H+ làm vòng c quay, ba vị trí β lần lượt tạo ATP.">
 <meta property="og:url" content="https://nclamvn.github.io/bai-giang/ty-the/"><link rel="canonical" href="https://nclamvn.github.io/bai-giang/ty-the/">
 <meta property="og:image" content="https://nclamvn.github.io/bai-giang/design/the/ty-the.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Vào Ty Thể: động cơ ATP synthase">
@@ -243,7 +243,7 @@ html[data-chieu] .lesson h2{font-size:24px!important}html[data-chieu] .lesson p,
 /* màn cảm ứng: vùng bấm từ 44 px */
 @media (pointer:coarse){.ctrl .btn,.ctrl select{min-height:44px}}
 </style>
-<!--BG-STD:start--><style id="bg-std">/* chuẩn thành phần Sáng Ăn Khoai: sinh bằng tools/design.py, không sửa tay */
+<!--BG-STD:start--><style id="bg-std">/* chuẩn thành phần Bài giảng 3D: sinh bằng tools/design.py, không sửa tay */
 body.bgs-on :is(button,.btn,select){font-family:var(--bg-font)}
 body.bgs-on .btn{font-weight:600;letter-spacing:0;text-transform:none}
 body.bgs-on :is(.btn.primary,.btn.pri,.btn.gold,.btn.cta){background:var(--bg-brand)!important;background-image:none!important;border-color:var(--bg-brand)!important;color:var(--bg-brand-ink)!important;box-shadow:0 6px 16px -10px rgba(30,42,68,.65)!important;text-shadow:none!important}
@@ -258,7 +258,7 @@ body.bgs-on :is(a,button,input,select,textarea,summary,[tabindex]):focus-visible
   <header class="top">
     <div class="brand">
       <svg class="logo" viewBox="0 0 40 40" aria-hidden="true"><rect x="3" y="9" width="34" height="22" rx="11" fill="#E7A33A"/><rect x="6" y="12" width="28" height="16" rx="8" fill="#B0531D"/><path d="M11 13v8M16 27v-8M21 13v8M26 27v-8M30 14v6" stroke="#FFE3A6" stroke-width="2.2" stroke-linecap="round"/></svg>
-      <div class="tt"><a class="homecrumb" href="../">← Sáng Ăn Khoai</a><h1>Vào <em>Ty Thể</em></h1><p>ATP synthase thật · PDB 6J5I · phóng tới nguyên tử · lên lớp</p></div>
+      <div class="tt"><a class="homecrumb" href="../">← Bài giảng 3D</a><h1>Vào <em>Ty Thể</em></h1><p>ATP synthase thật · PDB 6J5I · phóng tới nguyên tử · lên lớp</p></div>
     </div>
     <dl class="kpis">
       <div><dt>Nguyên tử thật</dt><dd class="c" id="kAtoms">…</dd></div>
@@ -822,7 +822,7 @@ function lessonOffset() { const w = host.clientWidth, h = host.clientHeight; if 
 function setMem(on) { memHidden = on; $('memBtn').setAttribute('aria-pressed', String(on)); $('memBtn').textContent = on ? 'Hiện màng' : 'Ẩn màng'; }
 $('diveBtn').addEventListener('click', () => dive ? endDive(false) : startDive());
 
-/* Vỏ Sáng Ăn Khoai: lên lớp bằng bút trình chiếu, màn hình giáo viên, điện thoại (shell/bg-shell.js) */
+/* Vỏ Bài giảng 3D: lên lớp bằng bút trình chiếu, màn hình giáo viên, điện thoại (shell/bg-shell.js) */
 if (window.BGShell) BGShell.mount({
   id: 'ty-the', title: 'Vào Ty Thể', subject: 'Sinh học 10', accent: '#C2184A',
   keys: [['D', 'phóng tới nguyên tử'], ['M', 'ẩn, hiện màng'], ['Space', 'chạy hoặc dừng'], ['Esc', 'thoát']],

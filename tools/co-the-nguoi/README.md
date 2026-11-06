@@ -1,7 +1,7 @@
 # Cơ thể người 3D (BodyVista Việt hoá)
 
 - `upstream/`: mã nguồn BodyVista nguyên bản (FreedomIntelligence, MIT), commit trong `upstream/UPSTREAM_COMMIT`. Không sửa tay.
-- `build.py`: chép upstream ra thư mục tạm, áp các thay đổi (hàm `patch_*`), đóng gói bằng esbuild, ghi `co-the-nguoi/`, nhúng vỏ Sáng Ăn Khoai. Cần `npm ci --ignore-scripts` trong thư mục này một lần (three, three-mesh-bvh, zustand cho khu răng miệng).
+- `build.py`: chép upstream ra thư mục tạm, áp các thay đổi (hàm `patch_*`), đóng gói bằng esbuild, ghi `co-the-nguoi/`, nhúng vỏ Bài giảng 3D. Cần `npm ci --ignore-scripts` trong thư mục này một lần (three, three-mesh-bvh, zustand cho khu răng miệng).
 - `vi.json`: từ điển tiếng Việt, khoá là câu gốc tiếng Trung của BodyVista (4.332 mục).
 - `lesson.js`: bài học 14 bước cho giáo viên, gọi `window.BodyVista` và `window.BGShell`.
 - `house.css`, `house-dental.css`: lớp giao diện nhà.

@@ -1,4 +1,4 @@
-// Bài học từng bước "Cơ thể người 3D" của Sáng Ăn Khoai, chạy trên BodyVista (window.BodyVista) và vỏ bài (window.BGShell).
+// Bài học từng bước "Cơ thể người 3D" của Bài giảng 3D, chạy trên BodyVista (window.BodyVista) và vỏ bài (window.BGShell).
 // Nội dung bám các mạch kiến thức "Sinh học cơ thể người" của môn Khoa học tự nhiên 8 (Chương trình GDPT 2018), tự viết,
 // không chép sách giáo khoa. Số liệu có nguồn: OpenStax, Anatomy and Physiology 2e (CC BY 4.0), ghi ở từng bước.
 const OS = 'OpenStax, Anatomy and Physiology 2e';
@@ -75,7 +75,7 @@ function start() {
     go: (i) => { cur = i; showCard(i); Promise.resolve(STEPS[i].go(B)).catch((e) => console.error('[co-the-nguoi] bước', i + 1, e)); },
     end: () => { if (card) card.hidden = true; },
     keys: [['Kéo', 'xoay mô hình'], ['Cuộn', 'phóng to, thu nhỏ'], ['Bấm', 'chọn cấu trúc, xem kiến thức'], ['Ctrl Z', 'hoàn tác']],
-    credit: 'Phát triển từ BodyVista của FreedomIntelligence (mã MIT). Mô hình giải phẫu từ Z-Anatomy (CC BY-SA 4.0, có phần chỉ dùng phi thương mại) và BodyParts3D (DBCLS, CC BY-SA 2.1 Nhật Bản). Sáng Ăn Khoai Việt hoá, nén mô hình, soạn bài học theo Khoa học tự nhiên 8. Bản dịch chưa qua giáo viên bộ môn duyệt.',
+    credit: 'Phát triển từ BodyVista của FreedomIntelligence (mã MIT). Mô hình giải phẫu từ Z-Anatomy (CC BY-SA 4.0, có phần chỉ dùng phi thương mại) và BodyParts3D (DBCLS, CC BY-SA 2.1 Nhật Bản). Bài giảng 3D Việt hoá, nén mô hình, soạn bài học theo Khoa học tự nhiên 8. Bản dịch chưa qua giáo viên bộ môn duyệt.',
   });
 }
 (function wait(n) {

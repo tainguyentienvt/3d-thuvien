@@ -1,6 +1,6 @@
 # Bài giảng 3D · THCS & Sinh học
 
-16 bài trích từ “Sáng Ăn Khoai” — [`nclamvn/bai-giang`](https://github.com/nclamvn/bai-giang),
+16 bài trích từ “Bài giảng 3D” — [`nclamvn/bai-giang`](https://github.com/nclamvn/bai-giang),
 commit `b075043` (repo gốc ~240 MB, 3.425 file). Repo này chỉ giữ phần đã chọn,
 tổng ~163 MB theo dung lượng file (riêng Cơ thể người 3D đã 143 MB).
 
